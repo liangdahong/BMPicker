@@ -17,7 +17,6 @@ class DRNewsVC: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.orangeColor();
 
-
         var arc = arc4random_uniform(20)+10;
         while arc > 0 {
             self.newsArray.addObject("模拟数据 - \(arc)")
@@ -28,11 +27,11 @@ class DRNewsVC: UIViewController {
             NSOperationQueue().addOperationWithBlock {
                 sleep(2)
                 NSOperationQueue.mainQueue().addOperationWithBlock {
-                    var arc = arc4random_uniform(20)+10;
-                    self.newsArray.removeAllObjects()
-                    while arc > 0 {
-                        self.newsArray.addObject("模拟数据 - \(arc)")
-                        arc -= 1;
+                    var ar = arc4random_uniform(20)+10;
+                    self.newsArray = NSMutableArray();
+                    while ar > 0 {
+                        self.newsArray.addObject("模拟数据 - \(ar)")
+                        ar -= 1;
                     }
                     self.newsTableView.stopPullToRefresh()
                     self.newsTableView.reloadData();
@@ -47,6 +46,7 @@ extension DRNewsVC : UITableViewDataSource {
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.newsArray.count;
     }
+    
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell: UITableViewCell? = (tableView.dequeueReusableCellWithIdentifier("ID"));
         if cell == nil {
@@ -54,7 +54,7 @@ extension DRNewsVC : UITableViewDataSource {
             print("alloc");
             cell?.backgroundColor = UIColor.grayColor();
         }
-        cell!.textLabel?.text = self.newsArray[indexPath.row] as? String;
+        cell?.textLabel?.text = "模拟数据 - \(indexPath.row)"
         return cell!;
     }
 }

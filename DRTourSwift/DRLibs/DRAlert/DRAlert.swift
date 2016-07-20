@@ -16,8 +16,7 @@ class DRAlert: UIView {
     @IBOutlet weak var layoutC2: NSLayoutConstraint!
     
     private var cancelBlock: (() -> ()) = {};
-    private
-    var confirmBlock: (() -> ()) = {};
+    private var confirmBlock: (() -> ()) = {};
 
     override func awakeFromNib() {
         super.awakeFromNib();
