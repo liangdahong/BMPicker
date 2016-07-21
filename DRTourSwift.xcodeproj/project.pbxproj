@@ -12,16 +12,22 @@
 		63F4A6AE1D3FD5050061BFE8 /* DRTourSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4A6AD1D3FD5050061BFE8 /* DRTourSwiftTests.swift */; };
 		63F4A6B91D3FD5050061BFE8 /* DRTourSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4A6B81D3FD5050061BFE8 /* DRTourSwiftUITests.swift */; };
 		63F4A6CA1D3FD5AC0061BFE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4A6C91D3FD5AC0061BFE8 /* AppDelegate.swift */; };
-		63F4A6D31D3FD61A0061BFE8 /* DRNewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4A6CC1D3FD61A0061BFE8 /* DRNewsVC.swift */; };
-		63F4A6D41D3FD61A0061BFE8 /* DRNewsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63F4A6CD1D3FD61A0061BFE8 /* DRNewsVC.xib */; };
-		63F4A6D51D3FD61A0061BFE8 /* DRPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4A6CF1D3FD61A0061BFE8 /* DRPersonVC.swift */; };
-		63F4A6D61D3FD61A0061BFE8 /* DRPersonVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63F4A6D01D3FD61A0061BFE8 /* DRPersonVC.xib */; };
-		63F4A6D71D3FD61A0061BFE8 /* DRTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4A6D21D3FD61A0061BFE8 /* DRTabBarController.swift */; };
 		63F4A6DC1D3FD6430061BFE8 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4A6D91D3FD6430061BFE8 /* Animator.swift */; };
 		63F4A6DD1D3FD6430061BFE8 /* PullToRefreshExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4A6DA1D3FD6430061BFE8 /* PullToRefreshExtension.swift */; };
 		63F4A6DE1D3FD6430061BFE8 /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4A6DB1D3FD6430061BFE8 /* PullToRefreshView.swift */; };
 		63F4A6E11D3FD6A10061BFE8 /* DRAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4A6E01D3FD6A10061BFE8 /* DRAlert.swift */; };
 		63F4A6E31D3FD6BF0061BFE8 /* DRAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63F4A6E21D3FD6BF0061BFE8 /* DRAlert.xib */; };
+		ED67F5FB1D40523200E17A67 /* DRTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67F5F61D40523200E17A67 /* DRTabBarController.swift */; };
+		ED67F5FE1D40524F00E17A67 /* DRAliCloudVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67F5FC1D40524F00E17A67 /* DRAliCloudVC.swift */; };
+		ED67F5FF1D40524F00E17A67 /* DRAliCloudVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED67F5FD1D40524F00E17A67 /* DRAliCloudVC.xib */; };
+		ED67F6021D4052E000E17A67 /* DRPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67F6001D4052E000E17A67 /* DRPersonVC.swift */; };
+		ED67F6031D4052E000E17A67 /* DRPersonVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED67F6011D4052E000E17A67 /* DRPersonVC.xib */; };
+		ED67F6061D40531D00E17A67 /* DRConsoleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67F6041D40531D00E17A67 /* DRConsoleVC.swift */; };
+		ED67F6071D40531D00E17A67 /* DRConsoleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED67F6051D40531D00E17A67 /* DRConsoleVC.xib */; };
+		ED67F60A1D40532C00E17A67 /* DRCloudCacheVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67F6081D40532C00E17A67 /* DRCloudCacheVC.swift */; };
+		ED67F60B1D40532C00E17A67 /* DRCloudCacheVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED67F6091D40532C00E17A67 /* DRCloudCacheVC.xib */; };
+		ED67F60E1D40588900E17A67 /* DRAliCloudDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67F60C1D40588900E17A67 /* DRAliCloudDateVC.swift */; };
+		ED67F60F1D40588900E17A67 /* DRAliCloudDateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED67F60D1D40588900E17A67 /* DRAliCloudDateVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,16 +59,22 @@
 		63F4A6B81D3FD5050061BFE8 /* DRTourSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRTourSwiftUITests.swift; sourceTree = "<group>"; };
 		63F4A6BA1D3FD5050061BFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63F4A6C91D3FD5AC0061BFE8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63F4A6CC1D3FD61A0061BFE8 /* DRNewsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRNewsVC.swift; sourceTree = "<group>"; };
-		63F4A6CD1D3FD61A0061BFE8 /* DRNewsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRNewsVC.xib; sourceTree = "<group>"; };
-		63F4A6CF1D3FD61A0061BFE8 /* DRPersonVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRPersonVC.swift; sourceTree = "<group>"; };
-		63F4A6D01D3FD61A0061BFE8 /* DRPersonVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRPersonVC.xib; sourceTree = "<group>"; };
-		63F4A6D21D3FD61A0061BFE8 /* DRTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRTabBarController.swift; sourceTree = "<group>"; };
 		63F4A6D91D3FD6430061BFE8 /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
 		63F4A6DA1D3FD6430061BFE8 /* PullToRefreshExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshExtension.swift; sourceTree = "<group>"; };
 		63F4A6DB1D3FD6430061BFE8 /* PullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshView.swift; sourceTree = "<group>"; };
 		63F4A6E01D3FD6A10061BFE8 /* DRAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRAlert.swift; sourceTree = "<group>"; };
 		63F4A6E21D3FD6BF0061BFE8 /* DRAlert.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRAlert.xib; sourceTree = "<group>"; };
+		ED67F5F61D40523200E17A67 /* DRTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRTabBarController.swift; sourceTree = "<group>"; };
+		ED67F5FC1D40524F00E17A67 /* DRAliCloudVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRAliCloudVC.swift; sourceTree = "<group>"; };
+		ED67F5FD1D40524F00E17A67 /* DRAliCloudVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRAliCloudVC.xib; sourceTree = "<group>"; };
+		ED67F6001D4052E000E17A67 /* DRPersonVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRPersonVC.swift; sourceTree = "<group>"; };
+		ED67F6011D4052E000E17A67 /* DRPersonVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRPersonVC.xib; sourceTree = "<group>"; };
+		ED67F6041D40531D00E17A67 /* DRConsoleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRConsoleVC.swift; sourceTree = "<group>"; };
+		ED67F6051D40531D00E17A67 /* DRConsoleVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRConsoleVC.xib; sourceTree = "<group>"; };
+		ED67F6081D40532C00E17A67 /* DRCloudCacheVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRCloudCacheVC.swift; sourceTree = "<group>"; };
+		ED67F6091D40532C00E17A67 /* DRCloudCacheVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRCloudCacheVC.xib; sourceTree = "<group>"; };
+		ED67F60C1D40588900E17A67 /* DRAliCloudDateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRAliCloudDateVC.swift; sourceTree = "<group>"; };
+		ED67F60D1D40588900E17A67 /* DRAliCloudDateVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRAliCloudDateVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,9 +164,11 @@
 		63F4A6C71D3FD5560061BFE8 /* DRClasss */ = {
 			isa = PBXGroup;
 			children = (
-				63F4A6D11D3FD61A0061BFE8 /* DRTabBar */,
-				63F4A6CB1D3FD61A0061BFE8 /* DRNews */,
-				63F4A6CE1D3FD61A0061BFE8 /* DRPerson */,
+				ED67F5F51D40523200E17A67 /* DRTabBar */,
+				ED67F5E01D40523200E17A67 /* DRAliCloud */,
+				ED67F5E81D40523200E17A67 /* DRConsole */,
+				ED67F5E41D40523200E17A67 /* DRCloudCache */,
+				ED67F5EF1D40523200E17A67 /* DRPerson */,
 			);
 			path = DRClasss;
 			sourceTree = "<group>";
@@ -166,32 +180,6 @@
 				63F4A6D81D3FD6430061BFE8 /* Refresher */,
 			);
 			path = DRLibs;
-			sourceTree = "<group>";
-		};
-		63F4A6CB1D3FD61A0061BFE8 /* DRNews */ = {
-			isa = PBXGroup;
-			children = (
-				63F4A6CC1D3FD61A0061BFE8 /* DRNewsVC.swift */,
-				63F4A6CD1D3FD61A0061BFE8 /* DRNewsVC.xib */,
-			);
-			path = DRNews;
-			sourceTree = "<group>";
-		};
-		63F4A6CE1D3FD61A0061BFE8 /* DRPerson */ = {
-			isa = PBXGroup;
-			children = (
-				63F4A6CF1D3FD61A0061BFE8 /* DRPersonVC.swift */,
-				63F4A6D01D3FD61A0061BFE8 /* DRPersonVC.xib */,
-			);
-			path = DRPerson;
-			sourceTree = "<group>";
-		};
-		63F4A6D11D3FD61A0061BFE8 /* DRTabBar */ = {
-			isa = PBXGroup;
-			children = (
-				63F4A6D21D3FD61A0061BFE8 /* DRTabBarController.swift */,
-			);
-			path = DRTabBar;
 			sourceTree = "<group>";
 		};
 		63F4A6D81D3FD6430061BFE8 /* Refresher */ = {
@@ -211,6 +199,148 @@
 				63F4A6E21D3FD6BF0061BFE8 /* DRAlert.xib */,
 			);
 			path = DRAlert;
+			sourceTree = "<group>";
+		};
+		ED67F5E01D40523200E17A67 /* DRAliCloud */ = {
+			isa = PBXGroup;
+			children = (
+				ED67F5E11D40523200E17A67 /* Controller */,
+				ED67F5E21D40523200E17A67 /* Model */,
+				ED67F5E31D40523200E17A67 /* View */,
+			);
+			path = DRAliCloud;
+			sourceTree = "<group>";
+		};
+		ED67F5E11D40523200E17A67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED67F5FC1D40524F00E17A67 /* DRAliCloudVC.swift */,
+				ED67F5FD1D40524F00E17A67 /* DRAliCloudVC.xib */,
+				ED67F60C1D40588900E17A67 /* DRAliCloudDateVC.swift */,
+				ED67F60D1D40588900E17A67 /* DRAliCloudDateVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED67F5E21D40523200E17A67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED67F5E31D40523200E17A67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED67F5E41D40523200E17A67 /* DRCloudCache */ = {
+			isa = PBXGroup;
+			children = (
+				ED67F5E51D40523200E17A67 /* Controller */,
+				ED67F5E61D40523200E17A67 /* Model */,
+				ED67F5E71D40523200E17A67 /* View */,
+			);
+			path = DRCloudCache;
+			sourceTree = "<group>";
+		};
+		ED67F5E51D40523200E17A67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED67F6081D40532C00E17A67 /* DRCloudCacheVC.swift */,
+				ED67F6091D40532C00E17A67 /* DRCloudCacheVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED67F5E61D40523200E17A67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED67F5E71D40523200E17A67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED67F5E81D40523200E17A67 /* DRConsole */ = {
+			isa = PBXGroup;
+			children = (
+				ED67F5E91D40523200E17A67 /* Controller */,
+				ED67F5EA1D40523200E17A67 /* Model */,
+				ED67F5EB1D40523200E17A67 /* View */,
+			);
+			path = DRConsole;
+			sourceTree = "<group>";
+		};
+		ED67F5E91D40523200E17A67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED67F6041D40531D00E17A67 /* DRConsoleVC.swift */,
+				ED67F6051D40531D00E17A67 /* DRConsoleVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED67F5EA1D40523200E17A67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED67F5EB1D40523200E17A67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED67F5EF1D40523200E17A67 /* DRPerson */ = {
+			isa = PBXGroup;
+			children = (
+				ED67F5F01D40523200E17A67 /* Controller */,
+				ED67F5F31D40523200E17A67 /* Model */,
+				ED67F5F41D40523200E17A67 /* View */,
+			);
+			path = DRPerson;
+			sourceTree = "<group>";
+		};
+		ED67F5F01D40523200E17A67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED67F6001D4052E000E17A67 /* DRPersonVC.swift */,
+				ED67F6011D4052E000E17A67 /* DRPersonVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED67F5F31D40523200E17A67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED67F5F41D40523200E17A67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED67F5F51D40523200E17A67 /* DRTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				ED67F5F61D40523200E17A67 /* DRTabBarController.swift */,
+			);
+			path = DRTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,10 +448,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				63F4A6A31D3FD5050061BFE8 /* LaunchScreen.storyboard in Resources */,
+				ED67F60B1D40532C00E17A67 /* DRCloudCacheVC.xib in Resources */,
 				63F4A6E31D3FD6BF0061BFE8 /* DRAlert.xib in Resources */,
-				63F4A6D61D3FD61A0061BFE8 /* DRPersonVC.xib in Resources */,
-				63F4A6D41D3FD61A0061BFE8 /* DRNewsVC.xib in Resources */,
+				ED67F6031D4052E000E17A67 /* DRPersonVC.xib in Resources */,
 				63F4A6A01D3FD5050061BFE8 /* Assets.xcassets in Resources */,
+				ED67F6071D40531D00E17A67 /* DRConsoleVC.xib in Resources */,
+				ED67F5FF1D40524F00E17A67 /* DRAliCloudVC.xib in Resources */,
+				ED67F60F1D40588900E17A67 /* DRAliCloudDateVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,13 +480,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				63F4A6DC1D3FD6430061BFE8 /* Animator.swift in Sources */,
+				ED67F60A1D40532C00E17A67 /* DRCloudCacheVC.swift in Sources */,
+				ED67F6061D40531D00E17A67 /* DRConsoleVC.swift in Sources */,
+				ED67F6021D4052E000E17A67 /* DRPersonVC.swift in Sources */,
+				ED67F5FB1D40523200E17A67 /* DRTabBarController.swift in Sources */,
 				63F4A6CA1D3FD5AC0061BFE8 /* AppDelegate.swift in Sources */,
-				63F4A6D71D3FD61A0061BFE8 /* DRTabBarController.swift in Sources */,
-				63F4A6D31D3FD61A0061BFE8 /* DRNewsVC.swift in Sources */,
 				63F4A6DE1D3FD6430061BFE8 /* PullToRefreshView.swift in Sources */,
-				63F4A6D51D3FD61A0061BFE8 /* DRPersonVC.swift in Sources */,
 				63F4A6E11D3FD6A10061BFE8 /* DRAlert.swift in Sources */,
 				63F4A6DD1D3FD6430061BFE8 /* PullToRefreshExtension.swift in Sources */,
+				ED67F5FE1D40524F00E17A67 /* DRAliCloudVC.swift in Sources */,
+				ED67F60E1D40588900E17A67 /* DRAliCloudDateVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +708,7 @@
 				63F4A6BF1D3FD5050061BFE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63F4A6C01D3FD5050061BFE8 /* Build configuration list for PBXNativeTarget "DRTourSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +717,7 @@
 				63F4A6C21D3FD5050061BFE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63F4A6C31D3FD5050061BFE8 /* Build configuration list for PBXNativeTarget "DRTourSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -588,6 +726,7 @@
 				63F4A6C51D3FD5050061BFE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
