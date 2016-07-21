@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Alamofire
 
 class DRAliCloudVC: UIViewController {
     
@@ -20,7 +20,6 @@ class DRAliCloudVC: UIViewController {
         for index in 1...arc4random_uniform(50)+20 {
             self.newsArray.addObject("模拟数据 - \(index)")
         }
-
         self.newsTableView.addPullToRefreshWithAction {
             NSOperationQueue().addOperationWithBlock {
                 sleep(2)
@@ -33,6 +32,16 @@ class DRAliCloudVC: UIViewController {
                 }
             }
         };
+        Alamofire.request(.GET, "http://api.breadtrip.com/trips/hot/?count=10&is_ipad=0&sign=f50d4ae601187d96bc637e76caf0b18d&start=1", parameters: nil)
+            .responseJSON { response in
+                print(response.request)
+                print(response.response)
+                print(response.data)
+                print(response.result)
+                if let JSON = response.result.value {
+                    print("JSON: \(JSON)")
+                }
+        }
     }
 }
 

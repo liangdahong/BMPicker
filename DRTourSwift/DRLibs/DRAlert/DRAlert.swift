@@ -8,13 +8,14 @@
 
 import UIKit
 
+/// 准备把系统的 UIAlertView UIActionSheet UIAlertController 3 个控件完整封装一个 swift版 暂用 xib弄一下，
+
 class DRAlert: UIView {
-    
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var messLabel: UILabel!
     @IBOutlet weak var layoutC1: NSLayoutConstraint!
     @IBOutlet weak var layoutC2: NSLayoutConstraint!
-    
+
     private var cancelBlock: (() -> ()) = {};
     private var confirmBlock: (() -> ()) = {};
 
@@ -24,6 +25,7 @@ class DRAlert: UIView {
         self.layoutC2.constant = 0.5;
         self.frame = UIScreen.mainScreen().bounds;
         self.autoresizingMask = UIViewAutoresizing.None;
+
     }
 
     internal class func alert(title: String?, mess: String?, cancelBlock: (() -> ()), confirmBlock: (() -> ())) -> (DRAlert) {
