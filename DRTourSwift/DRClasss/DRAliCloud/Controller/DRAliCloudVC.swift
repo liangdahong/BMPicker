@@ -13,7 +13,7 @@ class DRAliCloudVC: UIViewController {
     
     @IBOutlet weak var newsTableView: UITableView!
     lazy var newsArray = NSMutableArray();
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -62,10 +62,26 @@ extension DRAliCloudVC : UITableViewDataSource {
 
 extension DRAliCloudVC : UITableViewDelegate {
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
 
-        let c = DRAliCloudDateVC();
-        c.hidesBottomBarWhenPushed = true;
-        self.navigationController?.pushViewController(c, animated: true);
+        if indexPath.row%2 == 0 {
+            let aler = DRAlert.alert(DRAlertType.DRAlertTypeAlert, title: "温馨提示", mess: "mess")
+            aler.addButtonWithTitle("确定") {
+                print("确定");
+            }
+            aler.addButtonWithTitle("取消") {
+                print("取消");
+            }
+            aler.show();
+            return;
+        }
+        
+        let aler1 = DRAlert.alert(DRAlertType.DRAlertTypeSheet, title: "温馨提示", mess: "mess")
+        aler1.addButtonWithTitle("确定") {
+            print("确定");
+        }
+        aler1.addButtonWithTitle("取消") {
+            print("取消");
+        }
+        aler1.show();
     }
 }

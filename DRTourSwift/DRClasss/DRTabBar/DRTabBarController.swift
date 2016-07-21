@@ -34,6 +34,7 @@ class DRTabBarController: UITabBarController {
     }
 }
 
+// MARK: - UITabBarController extension
 extension UITabBarController {
     
     private func addViewControllerWithViewController(vc: UIViewController, title: String) -> () {
