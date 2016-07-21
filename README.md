@@ -54,23 +54,22 @@
 <h2>2、效果图（原app）</h2>
 <hr />
 <p>&nbsp;</p>
-<p>&nbsp;</p>
 <p>2.1、主页</p>
 <p><img title="主页" src="http://images2015.cnblogs.com/blog/724434/201607/724434-20160721082143169-238677257.jpg" alt="主页" />&nbsp;</p>
 <hr />
-<p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>2.2、控制台</p>
 <p><img src="http://images2015.cnblogs.com/blog/724434/201607/724434-20160721082359388-1980193617.jpg" alt="" /></p>
 <hr />
 <p>&nbsp;</p>
-<p>&nbsp;</p>
 <p>2.3、域名注册</p>
 <p><img src="http://images2015.cnblogs.com/blog/724434/201607/724434-20160721082411529-349728365.jpg" alt="" /></p>
-<hr /><hr />
+<hr />
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <ul>
 <li><a href="https://github.com/asiosldh/DraedSwift">求❤️star </a></li>
-<li><a href="http://www.jianshu.com/users/8cd6042f01e8/latest_articles" target="_blank">博客地址</a></li>
+<li><a href="http://www.jianshu.com/users/8cd6042f01e8/latest_articles" target="_blank">博客地</a></li>
 </ul>
+<hr />
+<p>&nbsp;</p>
