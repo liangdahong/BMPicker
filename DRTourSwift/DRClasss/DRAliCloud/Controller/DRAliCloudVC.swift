@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Alamofire
 
 class DRAliCloudVC: UIViewController {
     
@@ -32,16 +31,22 @@ class DRAliCloudVC: UIViewController {
                 }
             }
         };
-        Alamofire.request(.GET, "http://api.breadtrip.com/trips/hot/?count=10&is_ipad=0&sign=f50d4ae601187d96bc637e76caf0b18d&start=1", parameters: nil)
-            .responseJSON { response in
-                print(response.request)
-                print(response.response)
-                print(response.data)
-                print(response.result)
-                if let JSON = response.result.value {
-                    print("JSON: \(JSON)")
-                }
-        }
+
+        let scanfCodeItem = UIBarButtonItem.init(title: "扫一扫", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(scanfCodeClick))
+        self.navigationItem.leftBarButtonItem = scanfCodeItem;
+    }
+    
+    @objc private func scanfCodeClick() -> () {
+        
+        let c = DRScanfCodeVC.baseScanfCodeVCWithScanfCodeBlock { (codeString) in
+            let alert = DRAlert.alert(.alert, title: codeString, mess: nil);
+            alert.addButtonWithTitle("确定", block: {
+            });
+            alert.show();
+        };
+        c.hidesBottomBarWhenPushed = true
+        c.view.backgroundColor = UIColor.whiteColor();
+        self.navigationController?.pushViewController(c, animated: true)
     }
 }
 
@@ -64,7 +69,7 @@ extension DRAliCloudVC : UITableViewDelegate {
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
 
         if indexPath.row%2 == 0 {
-            let aler = DRAlert.alert(DRAlertType.DRAlertTypeAlert, title: "温馨提示", mess: "mess")
+            let aler = DRAlert.alert(DRAlertType.alert, title: "温馨提示", mess: "mess")
             aler.addButtonWithTitle("确定") {
                 print("确定");
             }
@@ -75,7 +80,7 @@ extension DRAliCloudVC : UITableViewDelegate {
             return;
         }
         
-        let aler1 = DRAlert.alert(DRAlertType.DRAlertTypeSheet, title: "温馨提示", mess: "mess")
+        let aler1 = DRAlert.alert(DRAlertType.sheet, title: "温馨提示", mess: "mess")
         aler1.addButtonWithTitle("确定") {
             print("确定");
         }

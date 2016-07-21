@@ -9,8 +9,7 @@
 import UIKit
 
 enum DRAlertType: Int {
-    
-    case DRAlertTypeAlert = 0, DRAlertTypeSheet
+    case alert = 0, sheet
 }
 
 // MARK: - DRAlert
@@ -19,14 +18,14 @@ class DRAlert: UIView {
     var alertView: UIAlertView?;
     var actionSheet: UIActionSheet?;
     var alertController: UIAlertController?;
-    var type: DRAlertType = .DRAlertTypeAlert
+    var type: DRAlertType = .alert
     var blocks: [() -> ()] = [];
     
     internal class func alert(type: DRAlertType, title: String?, mess: String?) -> (DRAlert) {
 
         let alert = DRAlert();
 
-        if type == .DRAlertTypeAlert {
+        if type == .alert {
             if UIDevice.currentDevice().systemVersion < "8.0" {
                 alert.alertView = UIAlertView.init(title: title, message: mess, delegate: alert, cancelButtonTitle: nil)
             }else{
@@ -47,7 +46,7 @@ class DRAlert: UIView {
 
     internal func addButtonWithTitle(title: String?, block: (() -> ())) -> () {
 
-        if type == .DRAlertTypeAlert {
+        if type == .alert {
             
             if UIDevice.currentDevice().systemVersion < "8.0" {
                 self.alertView?.addButtonWithTitle(title);
