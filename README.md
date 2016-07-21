@@ -1,6 +1,6 @@
 <h1>DraedSwift（使用swift仿"阿里云"）</h1>
 <blockquote>
-<p>准备边学swift边完善这个项目，进度可能有一点慢。如果对你有一定的帮助求<a href="https://github.com/asiosldh/DraedSwift">❤️star</a></p>
+<p>在Xcode7.3下编写，支持iOS7以上，准备边学swift边完善这个项目，进度可能有一点慢。如果对你有一定的帮助求<a href="https://github.com/asiosldh/DraedSwift">❤️star</a></p>
 <p><a href="https://itunes.apple.com/cn/app/a-li-yun/id981011420?spm=5176.8106753.379550.2.Jd0ZuH&amp;mt=8" target="_blank">阿里云AppStore地址</a></p>
 </blockquote>
 <h2>1、先欣赏一沟swift的优雅代码(哈哈)</h2>
