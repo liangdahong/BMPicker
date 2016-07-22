@@ -40,6 +40,7 @@
 		ED67F60B1D40532C00E17A67 /* DRCloudCacheVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED67F6091D40532C00E17A67 /* DRCloudCacheVC.xib */; };
 		ED67F60E1D40588900E17A67 /* DRAliCloudDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67F60C1D40588900E17A67 /* DRAliCloudDateVC.swift */; };
 		ED67F60F1D40588900E17A67 /* DRAliCloudDateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED67F60D1D40588900E17A67 /* DRAliCloudDateVC.xib */; };
+		EDEDD51A1D41B80700B8699C /* DRNetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEDD5191D41B80700B8699C /* DRNetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,7 @@
 		ED67F6091D40532C00E17A67 /* DRCloudCacheVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRCloudCacheVC.xib; sourceTree = "<group>"; };
 		ED67F60C1D40588900E17A67 /* DRAliCloudDateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRAliCloudDateVC.swift; sourceTree = "<group>"; };
 		ED67F60D1D40588900E17A67 /* DRAliCloudDateVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRAliCloudDateVC.xib; sourceTree = "<group>"; };
+		EDEDD5191D41B80700B8699C /* DRNetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRNetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 		63F4A6971D3FD5050061BFE8 /* DRTourSwift */ = {
 			isa = PBXGroup;
 			children = (
+				EDEDD5181D41B7F600B8699C /* DRNetworking */,
 				63F4A6C61D3FD5560061BFE8 /* DRApp */,
 				63F4A6C71D3FD5560061BFE8 /* DRClasss */,
 				63F4A6C81D3FD5560061BFE8 /* DRLibs */,
@@ -400,6 +403,14 @@
 			path = DRTabBar;
 			sourceTree = "<group>";
 		};
+		EDEDD5181D41B7F600B8699C /* DRNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				EDEDD5191D41B80700B8699C /* DRNetworkingManager.swift */,
+			);
+			path = DRNetworking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -559,6 +570,7 @@
 				63F4A6DD1D3FD6430061BFE8 /* PullToRefreshExtension.swift in Sources */,
 				ED15C7FB1D40B09E001FF7D3 /* DRScanfCodeVC.swift in Sources */,
 				ED67F5FE1D40524F00E17A67 /* DRAliCloudVC.swift in Sources */,
+				EDEDD51A1D41B80700B8699C /* DRNetworkingManager.swift in Sources */,
 				ED67F60E1D40588900E17A67 /* DRAliCloudDateVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

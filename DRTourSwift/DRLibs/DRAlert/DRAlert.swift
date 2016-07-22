@@ -91,7 +91,7 @@ class DRAlert: UIView {
 // MARK: - UIAlertViewDelegate
 extension DRAlert : UIAlertViewDelegate {
 
-    private func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
+    @objc internal func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
 
         if self.blocks.count < (buttonIndex + 1) {
             return;
@@ -104,7 +104,7 @@ extension DRAlert : UIAlertViewDelegate {
 // MARK: - UIActionSheetDelegate
 extension DRAlert : UIActionSheetDelegate {
 
-    private func actionSheet(actionSheet: UIActionSheet, clickedButtonAtIndex buttonIndex: Int) {
+    @objc internal func actionSheet(actionSheet: UIActionSheet, clickedButtonAtIndex buttonIndex: Int) {
         
         if self.blocks.count < (buttonIndex + 1) {
             return;

@@ -34,6 +34,22 @@ class DRAliCloudVC: UIViewController {
 
         let scanfCodeItem = UIBarButtonItem.init(title: "扫一扫", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(scanfCodeClick))
         self.navigationItem.leftBarButtonItem = scanfCodeItem;
+
+//        DRNetworkingManager.sharedNetworkingManager.GETWithUrlString("http://api.liwushuo.com/v1/banners?channel=null", successBlock: { (response, dataDict) in
+//
+//        }) { (response, err) in
+//                
+//        }
+//
+//        let dict = NSDictionary();
+//        DRNetworkingManager.sharedNetworkingManager.GETWithUrlString("http://api.liwushuo.com/v1/banners?channel=null", parameter: dict, successBlock: { (response, dataDict) in
+//            }) { (response, err) in
+//        }
+
+        DRNetworkingManager.sharedNetworkingManager.POSTWithUrlString("http://api.liwushuo.com/v1/banners?", parameter: ["channel":"null"], successBlock: { (response, dataDict) in
+        }) { (response, err) in
+        }
+
     }
     
     @objc private func scanfCodeClick() -> () {
@@ -90,3 +106,5 @@ extension DRAliCloudVC : UITableViewDelegate {
         aler1.show();
     }
 }
+
+
