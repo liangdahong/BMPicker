@@ -23,20 +23,18 @@ class DRBaseScanfCodeVC: UIViewController {
         
         // 检查设备是否有相机
         if !UIImagePickerController.isSourceTypeAvailable(.Camera) {
-            let alert = DRAlert.alert(.alert, title: "没有相机", mess: nil);
-            alert.addButtonWithTitle("确定", block: {
-            })
-            alert.show();
+            let alert = UIAlertController.init(title: "没有相机", message: nil, preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction.init(title: "好的", style: .Cancel, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil);
             return;
         }
 
         // 检查app是否有相机权限
         let authStatus =  AVCaptureDevice.authorizationStatusForMediaType(AVMediaTypeVideo)
         if (authStatus == .Restricted  || authStatus == .Denied) {
-            let alert = DRAlert.alert(.alert, title: "没有相机权限", mess: nil);
-            alert.addButtonWithTitle("确定", block: {
-            })
-            alert.show();
+            let alert = UIAlertController.init(title: "没有相机权限", message: nil, preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction.init(title: "好的", style: .Cancel, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil);
             return;
         }
         

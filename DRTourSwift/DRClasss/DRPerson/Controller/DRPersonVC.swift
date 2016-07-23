@@ -20,6 +20,15 @@ class DRPersonVC: UIViewController {
             self.personArray.addObject("设置 - \(index)")
         }
     }
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
+    }
 }
 
 extension DRPersonVC : UITableViewDataSource {
@@ -32,7 +41,12 @@ extension DRPersonVC : UITableViewDataSource {
         if cell == nil {
             cell = UITableViewCell.init(style: .Default, reuseIdentifier: "ID");
         }
-        cell?.textLabel?.text = self.personArray[indexPath.row] as? String;
+        if indexPath.row < 3 {
+            cell!.backgroundColor = UIColor.blueColor()
+        }else {
+            cell!.backgroundColor = UIColor.whiteColor()
+            cell?.backgroundView?.backgroundColor = UIColor.blueColor()
+        }
         return cell!;
     }
 }
@@ -41,5 +55,9 @@ extension DRPersonVC : UITableViewDelegate {
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+        let c = DRSettingVC()
+        c.view.backgroundColor = UIColor.orangeColor();
+        c.hidesBottomBarWhenPushed = true;
+        self.navigationController?.pushViewController(c, animated: true);
     }
 }

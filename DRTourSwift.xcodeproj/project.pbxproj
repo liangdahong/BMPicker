@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6340F8A11D431F860074FB22 /* UserHeaderButtonFavoritesSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 6340F88B1D431F860074FB22 /* UserHeaderButtonFavoritesSelected.png */; };
+		6340F8A21D431F860074FB22 /* UserHeaderButtonFavoritesSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6340F88C1D431F860074FB22 /* UserHeaderButtonFavoritesSelected@2x.png */; };
+		6340F8A31D431F860074FB22 /* UserHeaderButtonFavoritesSelected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6340F88D1D431F860074FB22 /* UserHeaderButtonFavoritesSelected@3x.png */; };
+		6340F8A61D43286B0074FB22 /* DRSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340F8A41D43286B0074FB22 /* DRSettingVC.swift */; };
+		6340F8A71D43286B0074FB22 /* DRSettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6340F8A51D43286B0074FB22 /* DRSettingVC.xib */; };
 		63F4A6A01D3FD5050061BFE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F4A69F1D3FD5050061BFE8 /* Assets.xcassets */; };
 		63F4A6A31D3FD5050061BFE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F4A6A11D3FD5050061BFE8 /* LaunchScreen.storyboard */; };
 		63F4A6AE1D3FD5050061BFE8 /* DRTourSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4A6AD1D3FD5050061BFE8 /* DRTourSwiftTests.swift */; };
@@ -74,6 +79,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6340F88B1D431F860074FB22 /* UserHeaderButtonFavoritesSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserHeaderButtonFavoritesSelected.png; sourceTree = "<group>"; };
+		6340F88C1D431F860074FB22 /* UserHeaderButtonFavoritesSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UserHeaderButtonFavoritesSelected@2x.png"; sourceTree = "<group>"; };
+		6340F88D1D431F860074FB22 /* UserHeaderButtonFavoritesSelected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UserHeaderButtonFavoritesSelected@3x.png"; sourceTree = "<group>"; };
+		6340F8A41D43286B0074FB22 /* DRSettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRSettingVC.swift; sourceTree = "<group>"; };
+		6340F8A51D43286B0074FB22 /* DRSettingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRSettingVC.xib; sourceTree = "<group>"; };
 		63F4A6951D3FD5050061BFE8 /* DRTourSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRTourSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F4A69F1D3FD5050061BFE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63F4A6A21D3FD5050061BFE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -141,6 +151,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6340F8761D431F860074FB22 /* DRResource */ = {
+			isa = PBXGroup;
+			children = (
+				6340F8771D431F860074FB22 /* tabImages */,
+			);
+			path = DRResource;
+			sourceTree = "<group>";
+		};
+		6340F8771D431F860074FB22 /* tabImages */ = {
+			isa = PBXGroup;
+			children = (
+				6340F88B1D431F860074FB22 /* UserHeaderButtonFavoritesSelected.png */,
+				6340F88C1D431F860074FB22 /* UserHeaderButtonFavoritesSelected@2x.png */,
+				6340F88D1D431F860074FB22 /* UserHeaderButtonFavoritesSelected@3x.png */,
+			);
+			path = tabImages;
+			sourceTree = "<group>";
+		};
 		63F4A68C1D3FD5050061BFE8 = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +192,7 @@
 		63F4A6971D3FD5050061BFE8 /* DRTourSwift */ = {
 			isa = PBXGroup;
 			children = (
+				6340F8761D431F860074FB22 /* DRResource */,
 				EDEDD5181D41B7F600B8699C /* DRNetworking */,
 				63F4A6C61D3FD5560061BFE8 /* DRApp */,
 				63F4A6C71D3FD5560061BFE8 /* DRClasss */,
@@ -377,6 +406,8 @@
 			children = (
 				ED67F6001D4052E000E17A67 /* DRPersonVC.swift */,
 				ED67F6011D4052E000E17A67 /* DRPersonVC.xib */,
+				6340F8A41D43286B0074FB22 /* DRSettingVC.swift */,
+				6340F8A51D43286B0074FB22 /* DRSettingVC.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -521,18 +552,22 @@
 				ED15C8161D40C62C001FF7D3 /* image_qr_corner_004_@2x.png in Resources */,
 				ED67F60B1D40532C00E17A67 /* DRCloudCacheVC.xib in Resources */,
 				ED15C8101D40C62C001FF7D3 /* image_qr_corner_001_@2x.png in Resources */,
+				6340F8A11D431F860074FB22 /* UserHeaderButtonFavoritesSelected.png in Resources */,
 				ED67F6031D4052E000E17A67 /* DRPersonVC.xib in Resources */,
 				63F4A6A01D3FD5050061BFE8 /* Assets.xcassets in Resources */,
 				ED15C8181D40C62C001FF7D3 /* image_qr_scan_line_001@2x.png in Resources */,
 				ED15C8111D40C62C001FF7D3 /* image_qr_corner_001_@3x.png in Resources */,
 				ED15C8171D40C62C001FF7D3 /* image_qr_corner_004_@3x.png in Resources */,
 				ED15C8151D40C62C001FF7D3 /* image_qr_corner_003_@3x.png in Resources */,
+				6340F8A21D431F860074FB22 /* UserHeaderButtonFavoritesSelected@2x.png in Resources */,
 				ED67F6071D40531D00E17A67 /* DRConsoleVC.xib in Resources */,
 				ED67F5FF1D40524F00E17A67 /* DRAliCloudVC.xib in Resources */,
 				ED67F60F1D40588900E17A67 /* DRAliCloudDateVC.xib in Resources */,
 				ED15C8121D40C62C001FF7D3 /* image_qr_corner_002_@2x.png in Resources */,
 				ED15C8131D40C62C001FF7D3 /* image_qr_corner_002_@3x.png in Resources */,
 				ED15C8061D40C3C5001FF7D3 /* DRBaseScanfCodeSettingView.xib in Resources */,
+				6340F8A31D431F860074FB22 /* UserHeaderButtonFavoritesSelected@3x.png in Resources */,
+				6340F8A71D43286B0074FB22 /* DRSettingVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +601,7 @@
 				ED67F5FB1D40523200E17A67 /* DRTabBarController.swift in Sources */,
 				63F4A6CA1D3FD5AC0061BFE8 /* AppDelegate.swift in Sources */,
 				63F4A6DE1D3FD6430061BFE8 /* PullToRefreshView.swift in Sources */,
+				6340F8A61D43286B0074FB22 /* DRSettingVC.swift in Sources */,
 				63F4A6E11D3FD6A10061BFE8 /* DRAlert.swift in Sources */,
 				63F4A6DD1D3FD6430061BFE8 /* PullToRefreshExtension.swift in Sources */,
 				ED15C7FB1D40B09E001FF7D3 /* DRScanfCodeVC.swift in Sources */,
