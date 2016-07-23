@@ -12,7 +12,7 @@ class DRAliCloudVC: UIViewController {
     
     @IBOutlet weak var newsTableView: UITableView!
     lazy var newsArray = NSMutableArray();
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -31,25 +31,9 @@ class DRAliCloudVC: UIViewController {
                 }
             }
         };
-
+        
         let scanfCodeItem = UIBarButtonItem.init(title: "扫一扫", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(scanfCodeClick))
         self.navigationItem.leftBarButtonItem = scanfCodeItem;
-
-//        DRNetworkingManager.sharedNetworkingManager.GETWithUrlString("http://api.liwushuo.com/v1/banners?channel=null", successBlock: { (response, dataDict) in
-//
-//        }) { (response, err) in
-//                
-//        }
-//
-//        let dict = NSDictionary();
-//        DRNetworkingManager.sharedNetworkingManager.GETWithUrlString("http://api.liwushuo.com/v1/banners?channel=null", parameter: dict, successBlock: { (response, dataDict) in
-//            }) { (response, err) in
-//        }
-
-        DRNetworkingManager.sharedNetworkingManager.POSTWithUrlString("http://api.liwushuo.com/v1/banners?", parameter: ["channel":"null"], successBlock: { (response, dataDict) in
-        }) { (response, err) in
-        }
-
     }
     
     @objc private func scanfCodeClick() -> () {
@@ -83,28 +67,19 @@ extension DRAliCloudVC : UITableViewDataSource {
 
 extension DRAliCloudVC : UITableViewDelegate {
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-
+        
         if indexPath.row%2 == 0 {
-            let aler = DRAlert.alert(DRAlertType.alert, title: "温馨提示", mess: "mess")
-            aler.addButtonWithTitle("确定") {
-                print("确定");
-            }
-            aler.addButtonWithTitle("取消") {
-                print("取消");
-            }
-            aler.show();
+            let alert = UIAlertController.init(title: "温馨提示", message: nil, preferredStyle: .ActionSheet)
+            alert.addAction(UIAlertAction.init(title: "cancel", style: .Cancel, handler: nil));
+            alert.addAction(UIAlertAction.init(title: "BUTTON1", style: .Default, handler: nil));
+            alert.addAction(UIAlertAction.init(title: "BUTTON2", style: .Default, handler: nil));
+            self.presentViewController(alert, animated: true, completion: nil);
             return;
         }
+        let alert = UIAlertController.init(title: "温馨提示", message: nil, preferredStyle: .Alert)
+        alert.addAction(UIAlertAction.init(title: "cancel1", style: .Destructive, handler: nil));
+        alert.addAction(UIAlertAction.init(title: "cancel2", style: .Default, handler: nil));
+        self.presentViewController(alert, animated: true, completion: nil);
         
-        let aler1 = DRAlert.alert(DRAlertType.sheet, title: "温馨提示", mess: "mess")
-        aler1.addButtonWithTitle("确定") {
-            print("确定");
-        }
-        aler1.addButtonWithTitle("取消") {
-            print("取消");
-        }
-        aler1.show();
     }
 }
-
-
