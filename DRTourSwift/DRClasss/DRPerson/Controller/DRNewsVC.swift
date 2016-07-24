@@ -1,14 +1,14 @@
 //
-//  DRConsoleVC.swift
+//  DRNewsVC.swift
 //  DRTourSwift
 //
-//  Created by Daredos on 16/7/21.
+//  Created by Daredos on 16/7/24.
 //  Copyright © 2016年 LiangDahong. All rights reserved.
 //
 
 import UIKit
 
-class DRConsoleVC: DRBaseVC {
+class DRNewsVC: DRNotBaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()

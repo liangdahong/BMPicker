@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DRCloudCacheVC: UIViewController {
+class DRCloudCacheVC: DRBaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()

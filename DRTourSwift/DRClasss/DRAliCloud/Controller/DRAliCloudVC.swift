@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DRAliCloudVC: UIViewController {
+class DRAliCloudVC: DRBaseVC {
     
     @IBOutlet weak var newsTableView: UITableView!
     lazy var newsArray = NSMutableArray();
