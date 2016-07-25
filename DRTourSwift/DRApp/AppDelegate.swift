@@ -32,7 +32,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         // 设置 root vc 控制器
         self.window?.rootViewController = DRTabBarController()
-
         return true
     }
 
@@ -43,5 +42,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow.init(frame: UIScreen.mainScreen().bounds)
         self.window?.backgroundColor = UIColor.whiteColor()
         self.window?.makeKeyAndVisible()
-    }    
+    }
 }
