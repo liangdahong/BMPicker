@@ -28,6 +28,10 @@
 		63FE8BC81D43D3EB0039C242 /* DRNewsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63FE8BC61D43D3EB0039C242 /* DRNewsVC.xib */; };
 		63FE8BCB1D43D4CC0039C242 /* DRPersonTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FE8BCA1D43D4CC0039C242 /* DRPersonTopView.swift */; };
 		63FE8BCD1D43D4D20039C242 /* DRPersonTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63FE8BCC1D43D4D20039C242 /* DRPersonTopView.xib */; };
+		ED02E04A1D45EF1100014D38 /* DRAliCloudTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED02E0491D45EF1100014D38 /* DRAliCloudTopView.xib */; };
+		ED02E04C1D45EF2000014D38 /* DRAliCloudTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED02E04B1D45EF2000014D38 /* DRAliCloudTopView.swift */; };
+		ED02E04F1D45F96600014D38 /* DRAliCloudCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED02E04D1D45F96600014D38 /* DRAliCloudCell.swift */; };
+		ED02E0501D45F96600014D38 /* DRAliCloudCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED02E04E1D45F96600014D38 /* DRAliCloudCell.xib */; };
 		ED15C7FB1D40B09E001FF7D3 /* DRScanfCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15C7FA1D40B09E001FF7D3 /* DRScanfCodeVC.swift */; };
 		ED15C8021D40C378001FF7D3 /* DRBaseScanfCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15C8011D40C378001FF7D3 /* DRBaseScanfCodeVC.swift */; };
 		ED15C8041D40C3B5001FF7D3 /* DRBaseScanfCodeSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15C8031D40C3B5001FF7D3 /* DRBaseScanfCodeSettingView.swift */; };
@@ -41,6 +45,7 @@
 		ED15C8161D40C62C001FF7D3 /* image_qr_corner_004_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED15C80D1D40C62C001FF7D3 /* image_qr_corner_004_@2x.png */; };
 		ED15C8171D40C62C001FF7D3 /* image_qr_corner_004_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED15C80E1D40C62C001FF7D3 /* image_qr_corner_004_@3x.png */; };
 		ED15C8181D40C62C001FF7D3 /* image_qr_scan_line_001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED15C80F1D40C62C001FF7D3 /* image_qr_scan_line_001@2x.png */; };
+		ED636A811D45E8C4004FE26C /* DRScrollAdvertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED636A801D45E8C4004FE26C /* DRScrollAdvertView.swift */; };
 		ED67F5FB1D40523200E17A67 /* DRTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67F5F61D40523200E17A67 /* DRTabBarController.swift */; };
 		ED67F5FE1D40524F00E17A67 /* DRAliCloudVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67F5FC1D40524F00E17A67 /* DRAliCloudVC.swift */; };
 		ED67F5FF1D40524F00E17A67 /* DRAliCloudVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED67F5FD1D40524F00E17A67 /* DRAliCloudVC.xib */; };
@@ -113,6 +118,10 @@
 		63FE8BC61D43D3EB0039C242 /* DRNewsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRNewsVC.xib; sourceTree = "<group>"; };
 		63FE8BCA1D43D4CC0039C242 /* DRPersonTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRPersonTopView.swift; sourceTree = "<group>"; };
 		63FE8BCC1D43D4D20039C242 /* DRPersonTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRPersonTopView.xib; sourceTree = "<group>"; };
+		ED02E0491D45EF1100014D38 /* DRAliCloudTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRAliCloudTopView.xib; sourceTree = "<group>"; };
+		ED02E04B1D45EF2000014D38 /* DRAliCloudTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRAliCloudTopView.swift; sourceTree = "<group>"; };
+		ED02E04D1D45F96600014D38 /* DRAliCloudCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRAliCloudCell.swift; sourceTree = "<group>"; };
+		ED02E04E1D45F96600014D38 /* DRAliCloudCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRAliCloudCell.xib; sourceTree = "<group>"; };
 		ED15C7FA1D40B09E001FF7D3 /* DRScanfCodeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRScanfCodeVC.swift; sourceTree = "<group>"; };
 		ED15C8011D40C378001FF7D3 /* DRBaseScanfCodeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRBaseScanfCodeVC.swift; sourceTree = "<group>"; };
 		ED15C8031D40C3B5001FF7D3 /* DRBaseScanfCodeSettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRBaseScanfCodeSettingView.swift; sourceTree = "<group>"; };
@@ -126,6 +135,7 @@
 		ED15C80D1D40C62C001FF7D3 /* image_qr_corner_004_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_qr_corner_004_@2x.png"; sourceTree = "<group>"; };
 		ED15C80E1D40C62C001FF7D3 /* image_qr_corner_004_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_qr_corner_004_@3x.png"; sourceTree = "<group>"; };
 		ED15C80F1D40C62C001FF7D3 /* image_qr_scan_line_001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_qr_scan_line_001@2x.png"; sourceTree = "<group>"; };
+		ED636A801D45E8C4004FE26C /* DRScrollAdvertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRScrollAdvertView.swift; sourceTree = "<group>"; };
 		ED67F5F61D40523200E17A67 /* DRTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRTabBarController.swift; sourceTree = "<group>"; };
 		ED67F5FC1D40524F00E17A67 /* DRAliCloudVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRAliCloudVC.swift; sourceTree = "<group>"; };
 		ED67F5FD1D40524F00E17A67 /* DRAliCloudVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRAliCloudVC.xib; sourceTree = "<group>"; };
@@ -294,6 +304,7 @@
 		63F4A6C81D3FD5560061BFE8 /* DRLibs */ = {
 			isa = PBXGroup;
 			children = (
+				ED636A7F1D45E8A5004FE26C /* DRScrollAdvertView */,
 				ED15C7FE1D40C35A001FF7D3 /* DRBaseScanfCodeVC */,
 				63F4A6DF1D3FD6970061BFE8 /* DRAlert */,
 				63F4A6D81D3FD6430061BFE8 /* Refresher */,
@@ -328,6 +339,17 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		ED02E0481D45EEED00014D38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED02E0491D45EF1100014D38 /* DRAliCloudTopView.xib */,
+				ED02E04B1D45EF2000014D38 /* DRAliCloudTopView.swift */,
+				ED02E04D1D45F96600014D38 /* DRAliCloudCell.swift */,
+				ED02E04E1D45F96600014D38 /* DRAliCloudCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		ED15C7FE1D40C35A001FF7D3 /* DRBaseScanfCodeVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -347,12 +369,20 @@
 			path = DRBaseScanfCodeVC;
 			sourceTree = "<group>";
 		};
+		ED636A7F1D45E8A5004FE26C /* DRScrollAdvertView */ = {
+			isa = PBXGroup;
+			children = (
+				ED636A801D45E8C4004FE26C /* DRScrollAdvertView.swift */,
+			);
+			path = DRScrollAdvertView;
+			sourceTree = "<group>";
+		};
 		ED67F5E01D40523200E17A67 /* DRAliCloud */ = {
 			isa = PBXGroup;
 			children = (
 				ED67F5E11D40523200E17A67 /* Controller */,
+				ED02E0481D45EEED00014D38 /* View */,
 				ED67F5E21D40523200E17A67 /* Model */,
-				ED67F5E31D40523200E17A67 /* View */,
 			);
 			path = DRAliCloud;
 			sourceTree = "<group>";
@@ -374,13 +404,6 @@
 			children = (
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		ED67F5E31D40523200E17A67 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		ED67F5E41D40523200E17A67 /* DRCloudCache */ = {
@@ -607,11 +630,13 @@
 				ED15C8101D40C62C001FF7D3 /* image_qr_corner_001_@2x.png in Resources */,
 				6340F8A11D431F860074FB22 /* UserHeaderButtonFavoritesSelected.png in Resources */,
 				ED67F6031D4052E000E17A67 /* DRPersonVC.xib in Resources */,
+				ED02E04A1D45EF1100014D38 /* DRAliCloudTopView.xib in Resources */,
 				63F4A6A01D3FD5050061BFE8 /* Assets.xcassets in Resources */,
 				ED15C8181D40C62C001FF7D3 /* image_qr_scan_line_001@2x.png in Resources */,
 				ED15C8111D40C62C001FF7D3 /* image_qr_corner_001_@3x.png in Resources */,
 				ED15C8171D40C62C001FF7D3 /* image_qr_corner_004_@3x.png in Resources */,
 				63FE8BCD1D43D4D20039C242 /* DRPersonTopView.xib in Resources */,
+				ED02E0501D45F96600014D38 /* DRAliCloudCell.xib in Resources */,
 				63FE8BC81D43D3EB0039C242 /* DRNewsVC.xib in Resources */,
 				ED15C8151D40C62C001FF7D3 /* image_qr_corner_003_@3x.png in Resources */,
 				6340F8A21D431F860074FB22 /* UserHeaderButtonFavoritesSelected@2x.png in Resources */,
@@ -649,9 +674,12 @@
 			files = (
 				ED15C8041D40C3B5001FF7D3 /* DRBaseScanfCodeSettingView.swift in Sources */,
 				63FE8BC41D43D0640039C242 /* DRNotBaseVC.swift in Sources */,
+				ED02E04F1D45F96600014D38 /* DRAliCloudCell.swift in Sources */,
 				63F4A6DC1D3FD6430061BFE8 /* Animator.swift in Sources */,
+				ED636A811D45E8C4004FE26C /* DRScrollAdvertView.swift in Sources */,
 				ED15C8021D40C378001FF7D3 /* DRBaseScanfCodeVC.swift in Sources */,
 				63FE8BCB1D43D4CC0039C242 /* DRPersonTopView.swift in Sources */,
+				ED02E04C1D45EF2000014D38 /* DRAliCloudTopView.swift in Sources */,
 				ED67F60A1D40532C00E17A67 /* DRCloudCacheVC.swift in Sources */,
 				ED67F6061D40531D00E17A67 /* DRConsoleVC.swift in Sources */,
 				ED67F6021D4052E000E17A67 /* DRPersonVC.swift in Sources */,
