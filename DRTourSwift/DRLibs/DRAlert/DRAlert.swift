@@ -20,7 +20,6 @@ class DRAlert: UIView {
     var alertController: UIAlertController?;
     var type: DRAlertType = .alert
     var blocks: [() -> ()] = [];
-    
     internal class func alert(type: DRAlertType, title: String?, mess: String?) -> (DRAlert) {
 
         let alert = DRAlert();

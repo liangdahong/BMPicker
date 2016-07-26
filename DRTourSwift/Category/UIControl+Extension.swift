@@ -8,30 +8,24 @@
 
 import UIKit
 
-typealias sendValueClosure=(string:String)->Void
+class DRControl: NSObject {
+    
+    private var block: (() -> ()) = {};
+}
 
 public extension UIControl {
-
-    public func addEventsWithControlEvents(controlEvents: UIControlEvents, block: (() -> ())) -> Void {
-        
+    public func addTouchUpInsideWithBlock(block: (() -> ())) -> Void {
+        let drControl = DRControl();
+        drControl.block = block;
+        objc_setAssociatedObject(self, "DRControl", "ldh", .OBJC_ASSOCIATION_RETAIN)
+        self.addTarget(self, action: #selector(self.touchUpInside), forControlEvents: .TouchUpInside);
     }
 
+    @objc private func touchUpInside() -> Void {
+        let drControl = objc_getAssociatedObject(self, "DRControl");
+        
+        self.dr_height = 1;
+    }
 }
 
 
-//
-//- (void)viewDidLoad {
-//    [super viewDidLoad];
-//    
-//    // 把@YES 通过 key为:kRuntimeKey  与 self 绑定起来
-//    objc_setAssociatedObject(self, kRuntimeKey, @YES, OBJC_ASSOCIATION_COPY_NONATOMIC);
-//    }
-//    
-//    - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-//        
-//        // 说明: 取出以 kRuntimeKey 为key 与 self 绑定起来的对象。
-//        id obj = objc_getAssociatedObject(self, kRuntimeKey);
-//        if (obj) {
-//            NSLog(@"取出为: %@",obj);
-//        }
-//}
