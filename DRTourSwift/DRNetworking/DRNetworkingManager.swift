@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 class DRNetworkingManager: NSObject {
 
     var timeoutInterval: NSTimeInterval = 20.0;

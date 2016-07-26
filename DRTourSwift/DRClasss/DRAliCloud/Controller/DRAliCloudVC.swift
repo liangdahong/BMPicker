@@ -17,16 +17,8 @@ class DRAliCloudVC: DRBaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         newsTableView.tableHeaderView = DRAliCloudTopView.aliCloudTopView()
-        
-        let btn = UIButton();
-        btn.frame = CGRectMake(0, 0, 100, 30)
-        btn.backgroundColor = UIColor.redColor();
-        let item = UIBarButtonItem.init(customView: btn);
-        self.navigationItem.rightBarButtonItem = item;
-        btn.addTouchUpInsideWithBlock { 
-            print("addTouchUpInsideWithBlockaddTouchUpInsideWithBlockaddTouchUpInsideWithBlockaddTouchUpInsideWithBlockaddTouchUpInsideWithBlock");
-        }
     }
+
     // MARK: - 公有方法
     // MARK: - 私有方法
     // MARK: - 事件响应

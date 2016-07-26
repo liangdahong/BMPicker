@@ -77,8 +77,9 @@
 		ED02E0B81D45FFAC00014D38 /* UIWebView+BFKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED02E0801D45FFAC00014D38 /* UIWebView+BFKit.swift */; };
 		ED02E0B91D45FFAC00014D38 /* UIWindow+BFKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED02E0811D45FFAC00014D38 /* UIWindow+BFKit.swift */; };
 		ED02E0BA1D45FFAC00014D38 /* BFKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED02E0831D45FFAC00014D38 /* BFKit.strings */; };
-		ED02E0C61D4611AC00014D38 /* UIControl+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED02E0C41D4611AC00014D38 /* UIControl+Extension.swift */; };
 		ED02E0C71D4611AC00014D38 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED02E0C51D4611AC00014D38 /* UIView+Extension.swift */; };
+		ED0C36321D47549F00732057 /* DRNetworkingInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C36311D47549F00732057 /* DRNetworkingInterface.swift */; };
+		ED0C36351D4754E300732057 /* DRGlobalConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C36341D4754E300732057 /* DRGlobalConfig.swift */; };
 		ED15C7FB1D40B09E001FF7D3 /* DRScanfCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15C7FA1D40B09E001FF7D3 /* DRScanfCodeVC.swift */; };
 		ED15C8021D40C378001FF7D3 /* DRBaseScanfCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15C8011D40C378001FF7D3 /* DRBaseScanfCodeVC.swift */; };
 		ED15C8041D40C3B5001FF7D3 /* DRBaseScanfCodeSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15C8031D40C3B5001FF7D3 /* DRBaseScanfCodeSettingView.swift */; };
@@ -223,8 +224,9 @@
 		ED02E08B1D45FFAC00014D38 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/BFKit.strings; sourceTree = "<group>"; };
 		ED02E08C1D45FFAC00014D38 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/BFKit.strings"; sourceTree = "<group>"; };
 		ED02E08D1D45FFAC00014D38 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/BFKit.strings"; sourceTree = "<group>"; };
-		ED02E0C41D4611AC00014D38 /* UIControl+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+Extension.swift"; sourceTree = "<group>"; };
 		ED02E0C51D4611AC00014D38 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		ED0C36311D47549F00732057 /* DRNetworkingInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRNetworkingInterface.swift; sourceTree = "<group>"; };
+		ED0C36341D4754E300732057 /* DRGlobalConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRGlobalConfig.swift; sourceTree = "<group>"; };
 		ED15C7FA1D40B09E001FF7D3 /* DRScanfCodeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRScanfCodeVC.swift; sourceTree = "<group>"; };
 		ED15C8011D40C378001FF7D3 /* DRBaseScanfCodeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRBaseScanfCodeVC.swift; sourceTree = "<group>"; };
 		ED15C8031D40C3B5001FF7D3 /* DRBaseScanfCodeSettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRBaseScanfCodeSettingView.swift; sourceTree = "<group>"; };
@@ -353,6 +355,7 @@
 		63F4A6971D3FD5050061BFE8 /* DRTourSwift */ = {
 			isa = PBXGroup;
 			children = (
+				ED0C36331D4754DA00732057 /* DRGlobalConfig */,
 				ED02E0BB1D46079100014D38 /* Category */,
 				6340F8761D431F860074FB22 /* DRResource */,
 				EDEDD5181D41B7F600B8699C /* DRNetworking */,
@@ -550,10 +553,17 @@
 		ED02E0BB1D46079100014D38 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				ED02E0C41D4611AC00014D38 /* UIControl+Extension.swift */,
 				ED02E0C51D4611AC00014D38 /* UIView+Extension.swift */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		ED0C36331D4754DA00732057 /* DRGlobalConfig */ = {
+			isa = PBXGroup;
+			children = (
+				ED0C36341D4754E300732057 /* DRGlobalConfig.swift */,
+			);
+			path = DRGlobalConfig;
 			sourceTree = "<group>";
 		};
 		ED15C7FE1D40C35A001FF7D3 /* DRBaseScanfCodeVC */ = {
@@ -719,6 +729,7 @@
 		EDEDD5181D41B7F600B8699C /* DRNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				ED0C36311D47549F00732057 /* DRNetworkingInterface.swift */,
 				EDEDD5191D41B80700B8699C /* DRNetworkingManager.swift */,
 			);
 			path = DRNetworking;
@@ -927,6 +938,7 @@
 				ED02E0AB1D45FFAC00014D38 /* UIFont+BFKit.swift in Sources */,
 				ED02E09F1D45FFAC00014D38 /* NSMutableArray+BFKit.swift in Sources */,
 				63F4A6E11D3FD6A10061BFE8 /* DRAlert.swift in Sources */,
+				ED0C36321D47549F00732057 /* DRNetworkingInterface.swift in Sources */,
 				ED02E09C1D45FFAC00014D38 /* NSDate+BFKit.swift in Sources */,
 				ED02E0A01D45FFAC00014D38 /* NSMutableDictionary+BFKit.swift in Sources */,
 				ED02E0AE1D45FFAC00014D38 /* UILabel+BFKit.swift in Sources */,
@@ -943,6 +955,7 @@
 				ED02E0AD1D45FFAC00014D38 /* UIImageView+BFKit.swift in Sources */,
 				ED02E0B91D45FFAC00014D38 /* UIWindow+BFKit.swift in Sources */,
 				ED02E0A51D45FFAC00014D38 /* NSThread+BFKit.swift in Sources */,
+				ED0C36351D4754E300732057 /* DRGlobalConfig.swift in Sources */,
 				ED02E0911D45FFAC00014D38 /* BFLog.swift in Sources */,
 				ED02E0991D45FFAC00014D38 /* Dictionary+BFKit.swift in Sources */,
 				63A772771D4347D5002CA441 /* DRBaseVC.swift in Sources */,
@@ -956,7 +969,6 @@
 				ED67F60E1D40588900E17A67 /* DRAliCloudDateVC.swift in Sources */,
 				ED02E0AC1D45FFAC00014D38 /* UIImage+BFKit.swift in Sources */,
 				ED02E08F1D45FFAC00014D38 /* BFButton.swift in Sources */,
-				ED02E0C61D4611AC00014D38 /* UIControl+Extension.swift in Sources */,
 				ED02E0961D45FFAC00014D38 /* BFView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
