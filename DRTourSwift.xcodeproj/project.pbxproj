@@ -77,7 +77,6 @@
 		ED02E0B81D45FFAC00014D38 /* UIWebView+BFKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED02E0801D45FFAC00014D38 /* UIWebView+BFKit.swift */; };
 		ED02E0B91D45FFAC00014D38 /* UIWindow+BFKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED02E0811D45FFAC00014D38 /* UIWindow+BFKit.swift */; };
 		ED02E0BA1D45FFAC00014D38 /* BFKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED02E0831D45FFAC00014D38 /* BFKit.strings */; };
-		ED02E0C71D4611AC00014D38 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED02E0C51D4611AC00014D38 /* UIView+Extension.swift */; };
 		ED0C36321D47549F00732057 /* DRNetworkingInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C36311D47549F00732057 /* DRNetworkingInterface.swift */; };
 		ED0C36351D4754E300732057 /* DRGlobalConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C36341D4754E300732057 /* DRGlobalConfig.swift */; };
 		ED15C7FB1D40B09E001FF7D3 /* DRScanfCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15C7FA1D40B09E001FF7D3 /* DRScanfCodeVC.swift */; };
@@ -105,6 +104,8 @@
 		ED67F60B1D40532C00E17A67 /* DRCloudCacheVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED67F6091D40532C00E17A67 /* DRCloudCacheVC.xib */; };
 		ED67F60E1D40588900E17A67 /* DRAliCloudDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67F60C1D40588900E17A67 /* DRAliCloudDateVC.swift */; };
 		ED67F60F1D40588900E17A67 /* DRAliCloudDateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED67F60D1D40588900E17A67 /* DRAliCloudDateVC.xib */; };
+		EDD4E11A1D49F51600293BAB /* UIControl+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4E1171D49F51600293BAB /* UIControl+Extension.swift */; };
+		EDD4E11B1D49F51600293BAB /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4E1191D49F51600293BAB /* UIView+Extension.swift */; };
 		EDEDD51A1D41B80700B8699C /* DRNetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEDD5191D41B80700B8699C /* DRNetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -224,7 +225,6 @@
 		ED02E08B1D45FFAC00014D38 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/BFKit.strings; sourceTree = "<group>"; };
 		ED02E08C1D45FFAC00014D38 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/BFKit.strings"; sourceTree = "<group>"; };
 		ED02E08D1D45FFAC00014D38 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/BFKit.strings"; sourceTree = "<group>"; };
-		ED02E0C51D4611AC00014D38 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		ED0C36311D47549F00732057 /* DRNetworkingInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRNetworkingInterface.swift; sourceTree = "<group>"; };
 		ED0C36341D4754E300732057 /* DRGlobalConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRGlobalConfig.swift; sourceTree = "<group>"; };
 		ED15C7FA1D40B09E001FF7D3 /* DRScanfCodeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRScanfCodeVC.swift; sourceTree = "<group>"; };
@@ -252,6 +252,8 @@
 		ED67F6091D40532C00E17A67 /* DRCloudCacheVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRCloudCacheVC.xib; sourceTree = "<group>"; };
 		ED67F60C1D40588900E17A67 /* DRAliCloudDateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRAliCloudDateVC.swift; sourceTree = "<group>"; };
 		ED67F60D1D40588900E17A67 /* DRAliCloudDateVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRAliCloudDateVC.xib; sourceTree = "<group>"; };
+		EDD4E1171D49F51600293BAB /* UIControl+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+Extension.swift"; sourceTree = "<group>"; };
+		EDD4E1191D49F51600293BAB /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		EDEDD5191D41B80700B8699C /* DRNetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRNetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -553,7 +555,7 @@
 		ED02E0BB1D46079100014D38 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				ED02E0C51D4611AC00014D38 /* UIView+Extension.swift */,
+				EDD4E1151D49F51600293BAB /* UIExtension */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -724,6 +726,31 @@
 				ED67F5F61D40523200E17A67 /* DRTabBarController.swift */,
 			);
 			path = DRTabBar;
+			sourceTree = "<group>";
+		};
+		EDD4E1151D49F51600293BAB /* UIExtension */ = {
+			isa = PBXGroup;
+			children = (
+				EDD4E1161D49F51600293BAB /* UIControl */,
+				EDD4E1181D49F51600293BAB /* UIView */,
+			);
+			path = UIExtension;
+			sourceTree = "<group>";
+		};
+		EDD4E1161D49F51600293BAB /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				EDD4E1171D49F51600293BAB /* UIControl+Extension.swift */,
+			);
+			path = UIControl;
+			sourceTree = "<group>";
+		};
+		EDD4E1181D49F51600293BAB /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				EDD4E1191D49F51600293BAB /* UIView+Extension.swift */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		EDEDD5181D41B7F600B8699C /* DRNetworking */ = {
@@ -907,11 +934,11 @@
 				ED02E0951D45FFAC00014D38 /* BFTouchID.swift in Sources */,
 				ED02E04F1D45F96600014D38 /* DRAliCloudCell.swift in Sources */,
 				63F4A6DC1D3FD6430061BFE8 /* Animator.swift in Sources */,
-				ED02E0C71D4611AC00014D38 /* UIView+Extension.swift in Sources */,
 				ED636A811D45E8C4004FE26C /* DRScrollAdvertView.swift in Sources */,
 				ED15C8021D40C378001FF7D3 /* DRBaseScanfCodeVC.swift in Sources */,
 				ED02E0B31D45FFAC00014D38 /* UITableView+BFKit.swift in Sources */,
 				63FE8BCB1D43D4CC0039C242 /* DRPersonTopView.swift in Sources */,
+				EDD4E11A1D49F51600293BAB /* UIControl+Extension.swift in Sources */,
 				ED02E0A81D45FFAC00014D38 /* UIButton+BFKit.swift in Sources */,
 				ED02E0A41D45FFAC00014D38 /* NSString+BFKit.swift in Sources */,
 				ED02E04C1D45EF2000014D38 /* DRAliCloudTopView.swift in Sources */,
@@ -965,6 +992,7 @@
 				ED02E0AF1D45FFAC00014D38 /* UINavigationBar+BFKit.swift in Sources */,
 				ED02E0981D45FFAC00014D38 /* Array+BFKit.swift in Sources */,
 				63FE8BC71D43D3EB0039C242 /* DRNewsVC.swift in Sources */,
+				EDD4E11B1D49F51600293BAB /* UIView+Extension.swift in Sources */,
 				EDEDD51A1D41B80700B8699C /* DRNetworkingManager.swift in Sources */,
 				ED67F60E1D40588900E17A67 /* DRAliCloudDateVC.swift in Sources */,
 				ED02E0AC1D45FFAC00014D38 /* UIImage+BFKit.swift in Sources */,

@@ -6,15 +6,16 @@
 //  Copyright © 2016年 LiangDahong. All rights reserved.
 //
 
-import UIKit
+import UIKit 
 
 public extension UIView {
-    
+
     public var dr_x: CGFloat {
         get {
             return self.frame.origin.x
         } set(newValue) {
             self.frame = CGRectMake(newValue, self.frame.origin.y, self.frame.size.width, self.frame.size.height)
+            
         }
     }
     public var dr_y: CGFloat {
@@ -47,7 +48,7 @@ public extension UIView {
             self.frame = CGRectMake(newValue.x, newValue.y, self.frame.size.width, self.frame.size.height)
         }
     }
-    
+
     public var dr_size: CGSize {
         get {
             return self.frame.size

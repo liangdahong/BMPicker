@@ -17,6 +17,14 @@ class DRAliCloudVC: DRBaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         newsTableView.tableHeaderView = DRAliCloudTopView.aliCloudTopView()
+        
+        
+        let button = UIButton();
+        button.frame = CGRectMake(0, 0, 100, 30);
+        button.backgroundColor = UIColor.redColor();
+        let item = UIBarButtonItem.init(customView: button);
+        self.navigationItem.rightBarButtonItem = item;
+        
     }
 
     // MARK: - 公有方法
