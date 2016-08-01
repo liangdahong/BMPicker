@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6340F8A11D431F860074FB22 /* UserHeaderButtonFavoritesSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 6340F88B1D431F860074FB22 /* UserHeaderButtonFavoritesSelected.png */; };
-		6340F8A21D431F860074FB22 /* UserHeaderButtonFavoritesSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6340F88C1D431F860074FB22 /* UserHeaderButtonFavoritesSelected@2x.png */; };
-		6340F8A31D431F860074FB22 /* UserHeaderButtonFavoritesSelected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6340F88D1D431F860074FB22 /* UserHeaderButtonFavoritesSelected@3x.png */; };
 		6340F8A61D43286B0074FB22 /* DRSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340F8A41D43286B0074FB22 /* DRSettingVC.swift */; };
 		6340F8A71D43286B0074FB22 /* DRSettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6340F8A51D43286B0074FB22 /* DRSettingVC.xib */; };
 		63A772751D4347BF002CA441 /* DRBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A772741D4347BF002CA441 /* DRBaseModel.swift */; };
@@ -140,9 +137,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6340F88B1D431F860074FB22 /* UserHeaderButtonFavoritesSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserHeaderButtonFavoritesSelected.png; sourceTree = "<group>"; };
-		6340F88C1D431F860074FB22 /* UserHeaderButtonFavoritesSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UserHeaderButtonFavoritesSelected@2x.png"; sourceTree = "<group>"; };
-		6340F88D1D431F860074FB22 /* UserHeaderButtonFavoritesSelected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UserHeaderButtonFavoritesSelected@3x.png"; sourceTree = "<group>"; };
 		6340F8A41D43286B0074FB22 /* DRSettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRSettingVC.swift; sourceTree = "<group>"; };
 		6340F8A51D43286B0074FB22 /* DRSettingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRSettingVC.xib; sourceTree = "<group>"; };
 		63A772741D4347BF002CA441 /* DRBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRBaseModel.swift; sourceTree = "<group>"; };
@@ -282,24 +276,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6340F8761D431F860074FB22 /* DRResource */ = {
-			isa = PBXGroup;
-			children = (
-				6340F8771D431F860074FB22 /* tabImages */,
-			);
-			path = DRResource;
-			sourceTree = "<group>";
-		};
-		6340F8771D431F860074FB22 /* tabImages */ = {
-			isa = PBXGroup;
-			children = (
-				6340F88B1D431F860074FB22 /* UserHeaderButtonFavoritesSelected.png */,
-				6340F88C1D431F860074FB22 /* UserHeaderButtonFavoritesSelected@2x.png */,
-				6340F88D1D431F860074FB22 /* UserHeaderButtonFavoritesSelected@3x.png */,
-			);
-			path = tabImages;
-			sourceTree = "<group>";
-		};
 		63A772701D4347AB002CA441 /* DRBase */ = {
 			isa = PBXGroup;
 			children = (
@@ -359,7 +335,6 @@
 			children = (
 				ED0C36331D4754DA00732057 /* DRGlobalConfig */,
 				ED02E0BB1D46079100014D38 /* Category */,
-				6340F8761D431F860074FB22 /* DRResource */,
 				EDEDD5181D41B7F600B8699C /* DRNetworking */,
 				63F4A6C61D3FD5560061BFE8 /* DRApp */,
 				63F4A6C71D3FD5560061BFE8 /* DRClasss */,
@@ -882,7 +857,6 @@
 				ED67F60B1D40532C00E17A67 /* DRCloudCacheVC.xib in Resources */,
 				ED15C8101D40C62C001FF7D3 /* image_qr_corner_001_@2x.png in Resources */,
 				ED02E0BA1D45FFAC00014D38 /* BFKit.strings in Resources */,
-				6340F8A11D431F860074FB22 /* UserHeaderButtonFavoritesSelected.png in Resources */,
 				ED67F6031D4052E000E17A67 /* DRPersonVC.xib in Resources */,
 				ED02E04A1D45EF1100014D38 /* DRAliCloudTopView.xib in Resources */,
 				63F4A6A01D3FD5050061BFE8 /* Assets.xcassets in Resources */,
@@ -893,14 +867,12 @@
 				ED02E0501D45F96600014D38 /* DRAliCloudCell.xib in Resources */,
 				63FE8BC81D43D3EB0039C242 /* DRNewsVC.xib in Resources */,
 				ED15C8151D40C62C001FF7D3 /* image_qr_corner_003_@3x.png in Resources */,
-				6340F8A21D431F860074FB22 /* UserHeaderButtonFavoritesSelected@2x.png in Resources */,
 				ED67F6071D40531D00E17A67 /* DRConsoleVC.xib in Resources */,
 				ED67F5FF1D40524F00E17A67 /* DRAliCloudVC.xib in Resources */,
 				ED67F60F1D40588900E17A67 /* DRAliCloudDateVC.xib in Resources */,
 				ED15C8121D40C62C001FF7D3 /* image_qr_corner_002_@2x.png in Resources */,
 				ED15C8131D40C62C001FF7D3 /* image_qr_corner_002_@3x.png in Resources */,
 				ED15C8061D40C3C5001FF7D3 /* DRBaseScanfCodeSettingView.xib in Resources */,
-				6340F8A31D431F860074FB22 /* UserHeaderButtonFavoritesSelected@3x.png in Resources */,
 				6340F8A71D43286B0074FB22 /* DRSettingVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
