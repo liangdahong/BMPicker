@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		319C03C91EF2D41300DC3137 /* BMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319C03C81EF2D41300DC3137 /* BMViewController.m */; };
+		32A1E7C21F2735520038B87A /* BMPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1E7B51F2735520038B87A /* BMPicker.m */; };
+		32A1E7C31F2735520038B87A /* NSDate+BMDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1E7B81F2735520038B87A /* NSDate+BMDatePicker.m */; };
+		32A1E7C41F2735520038B87A /* UIView+BMLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1E7BA1F2735520038B87A /* UIView+BMLayoutConstraint.m */; };
+		32A1E7C51F2735520038B87A /* BMCustomDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1E7BD1F2735520038B87A /* BMCustomDatePickerView.m */; };
+		32A1E7C61F2735520038B87A /* BMCustomDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A1E7BE1F2735520038B87A /* BMCustomDatePickerView.xib */; };
+		32A1E7C71F2735520038B87A /* BMSystemDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1E7C01F2735520038B87A /* BMSystemDatePickerView.m */; };
+		32A1E7C81F2735520038B87A /* BMSystemDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A1E7C11F2735520038B87A /* BMSystemDatePickerView.xib */; };
+		32A6F07E1EF26A3E005BFBCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A6F07C1EF26A3E005BFBCC /* Main.storyboard */; };
+		32A6F0801EF26A3E005BFBCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A6F07F1EF26A3E005BFBCC /* Assets.xcassets */; };
+		32A6F0831EF26A3E005BFBCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A6F0811EF26A3E005BFBCC /* LaunchScreen.storyboard */; };
+		32A6F08E1EF26A3E005BFBCC /* BMPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A6F08D1EF26A3E005BFBCC /* BMPickerTests.m */; };
+		32A6F0991EF26A3F005BFBCC /* BMPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A6F0981EF26A3E005BFBCC /* BMPickerUITests.m */; };
+		32A6F0CF1EF26A5F005BFBCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A6F0A81EF26A5F005BFBCC /* AppDelegate.m */; };
+		32A6F0D01EF26A5F005BFBCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A6F0A91EF26A5F005BFBCC /* main.m */; };
+		32A6F0D81EF26A5F005BFBCC /* BMDatePickerViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A6F0BC1EF26A5F005BFBCC /* BMDatePickerViewVC.m */; };
+		32A6F0D91EF26A5F005BFBCC /* BMExample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A6F0BD1EF26A5F005BFBCC /* BMExample.storyboard */; };
+		32A6F0DA1EF26A5F005BFBCC /* BMExampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A6F0BF1EF26A5F005BFBCC /* BMExampleVC.m */; };
+		32A6F0DC1EF26A5F005BFBCC /* BMZDYVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A6F0C31EF26A5F005BFBCC /* BMZDYVC.m */; };
+		32A6F0E71EF26AD6005BFBCC /* BMPicker.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 32A6F0E21EF26AD6005BFBCC /* BMPicker.podspec */; };
+		32A6F0E81EF26AD6005BFBCC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 32A6F0E31EF26AD6005BFBCC /* LICENSE */; };
+		32A6F0E91EF26AD6005BFBCC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 32A6F0E41EF26AD6005BFBCC /* README.md */; };
+		32A6F0EA1EF26AD6005BFBCC /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 32A6F0E61EF26AD6005BFBCC /* 1.gif */; };
+		890022F9270BADBB5A9A3411 /* libPods-BMPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E6E8922EDE58528CF834E1 /* libPods-BMPicker.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32A6F08A1EF26A3E005BFBCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A6F0681EF26A3E005BFBCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32A6F06F1EF26A3E005BFBCC;
+			remoteInfo = BMPicker;
+		};
+		32A6F0951EF26A3E005BFBCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A6F0681EF26A3E005BFBCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32A6F06F1EF26A3E005BFBCC;
+			remoteInfo = BMPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		204D2919723381DD0D3845B8 /* libPods-BMPickerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BMPickerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2321A471C0A66D831BF99F5D /* Pods-BMPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMPicker/Pods-BMPicker.release.xcconfig"; sourceTree = "<group>"; };
+		319C03C71EF2D41300DC3137 /* BMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMViewController.h; sourceTree = "<group>"; };
+		319C03C81EF2D41300DC3137 /* BMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMViewController.m; sourceTree = "<group>"; };
+		32A1E7B41F2735520038B87A /* BMPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMPicker.h; sourceTree = "<group>"; };
+		32A1E7B51F2735520038B87A /* BMPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMPicker.m; sourceTree = "<group>"; };
+		32A1E7B71F2735520038B87A /* NSDate+BMDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BMDatePicker.h"; sourceTree = "<group>"; };
+		32A1E7B81F2735520038B87A /* NSDate+BMDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BMDatePicker.m"; sourceTree = "<group>"; };
+		32A1E7B91F2735520038B87A /* UIView+BMLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BMLayoutConstraint.h"; sourceTree = "<group>"; };
+		32A1E7BA1F2735520038B87A /* UIView+BMLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BMLayoutConstraint.m"; sourceTree = "<group>"; };
+		32A1E7BC1F2735520038B87A /* BMCustomDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMCustomDatePickerView.h; sourceTree = "<group>"; };
+		32A1E7BD1F2735520038B87A /* BMCustomDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMCustomDatePickerView.m; sourceTree = "<group>"; };
+		32A1E7BE1F2735520038B87A /* BMCustomDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMCustomDatePickerView.xib; sourceTree = "<group>"; };
+		32A1E7BF1F2735520038B87A /* BMSystemDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMSystemDatePickerView.h; sourceTree = "<group>"; };
+		32A1E7C01F2735520038B87A /* BMSystemDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMSystemDatePickerView.m; sourceTree = "<group>"; };
+		32A1E7C11F2735520038B87A /* BMSystemDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMSystemDatePickerView.xib; sourceTree = "<group>"; };
+		32A6F0701EF26A3E005BFBCC /* BMPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A6F07D1EF26A3E005BFBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32A6F07F1EF26A3E005BFBCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32A6F0821EF26A3E005BFBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32A6F0841EF26A3E005BFBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A6F0891EF26A3E005BFBCC /* BMPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A6F08D1EF26A3E005BFBCC /* BMPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMPickerTests.m; sourceTree = "<group>"; };
+		32A6F08F1EF26A3E005BFBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A6F0941EF26A3E005BFBCC /* BMPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A6F0981EF26A3E005BFBCC /* BMPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMPickerUITests.m; sourceTree = "<group>"; };
+		32A6F09A1EF26A3F005BFBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A6F0A71EF26A5F005BFBCC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32A6F0A81EF26A5F005BFBCC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32A6F0A91EF26A5F005BFBCC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32A6F0BB1EF26A5F005BFBCC /* BMDatePickerViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDatePickerViewVC.h; sourceTree = "<group>"; };
+		32A6F0BC1EF26A5F005BFBCC /* BMDatePickerViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMDatePickerViewVC.m; sourceTree = "<group>"; };
+		32A6F0BD1EF26A5F005BFBCC /* BMExample.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BMExample.storyboard; sourceTree = "<group>"; };
+		32A6F0BE1EF26A5F005BFBCC /* BMExampleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMExampleVC.h; sourceTree = "<group>"; };
+		32A6F0BF1EF26A5F005BFBCC /* BMExampleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMExampleVC.m; sourceTree = "<group>"; };
+		32A6F0C21EF26A5F005BFBCC /* BMZDYVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMZDYVC.h; sourceTree = "<group>"; };
+		32A6F0C31EF26A5F005BFBCC /* BMZDYVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMZDYVC.m; sourceTree = "<group>"; };
+		32A6F0E21EF26AD6005BFBCC /* BMPicker.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BMPicker.podspec; sourceTree = "<group>"; };
+		32A6F0E31EF26AD6005BFBCC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		32A6F0E41EF26AD6005BFBCC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		32A6F0E61EF26AD6005BFBCC /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		7F2DBF5E3F5C5200277176D5 /* Pods-BMPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMPicker/Pods-BMPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		D5E6E8922EDE58528CF834E1 /* libPods-BMPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BMPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8E9CC6C490C8B83F684A8B /* libPods-BMPickerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BMPickerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32A6F06D1EF26A3E005BFBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890022F9270BADBB5A9A3411 /* libPods-BMPicker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A6F0861EF26A3E005BFBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A6F0911EF26A3E005BFBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32A1E7B21F2735520038B87A /* BMPicker */ = {
+			isa = PBXGroup;
+			children = (
+				32A1E7B31F2735520038B87A /* BMPicker */,
+				32A1E7B61F2735520038B87A /* Category */,
+				32A1E7BB1F2735520038B87A /* View */,
+			);
+			path = BMPicker;
+			sourceTree = "<group>";
+		};
+		32A1E7B31F2735520038B87A /* BMPicker */ = {
+			isa = PBXGroup;
+			children = (
+				32A1E7B41F2735520038B87A /* BMPicker.h */,
+				32A1E7B51F2735520038B87A /* BMPicker.m */,
+			);
+			path = BMPicker;
+			sourceTree = "<group>";
+		};
+		32A1E7B61F2735520038B87A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				32A1E7B71F2735520038B87A /* NSDate+BMDatePicker.h */,
+				32A1E7B81F2735520038B87A /* NSDate+BMDatePicker.m */,
+				32A1E7B91F2735520038B87A /* UIView+BMLayoutConstraint.h */,
+				32A1E7BA1F2735520038B87A /* UIView+BMLayoutConstraint.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		32A1E7BB1F2735520038B87A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32A1E7BC1F2735520038B87A /* BMCustomDatePickerView.h */,
+				32A1E7BD1F2735520038B87A /* BMCustomDatePickerView.m */,
+				32A1E7BE1F2735520038B87A /* BMCustomDatePickerView.xib */,
+				32A1E7BF1F2735520038B87A /* BMSystemDatePickerView.h */,
+				32A1E7C01F2735520038B87A /* BMSystemDatePickerView.m */,
+				32A1E7C11F2735520038B87A /* BMSystemDatePickerView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		32A6F0671EF26A3E005BFBCC = {
+			isa = PBXGroup;
+			children = (
+				32A6F0E21EF26AD6005BFBCC /* BMPicker.podspec */,
+				32A6F0E31EF26AD6005BFBCC /* LICENSE */,
+				32A6F0E41EF26AD6005BFBCC /* README.md */,
+				32A6F0E51EF26AD6005BFBCC /* Resources */,
+				32A6F0721EF26A3E005BFBCC /* BMPicker */,
+				32A6F08C1EF26A3E005BFBCC /* BMPickerTests */,
+				32A6F0971EF26A3E005BFBCC /* BMPickerUITests */,
+				32A6F0711EF26A3E005BFBCC /* Products */,
+				CBEC07F2F87854B861E79FC9 /* Pods */,
+				3467A39B4689210E9571CCD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32A6F0711EF26A3E005BFBCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32A6F0701EF26A3E005BFBCC /* BMPicker.app */,
+				32A6F0891EF26A3E005BFBCC /* BMPickerTests.xctest */,
+				32A6F0941EF26A3E005BFBCC /* BMPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32A6F0721EF26A3E005BFBCC /* BMPicker */ = {
+			isa = PBXGroup;
+			children = (
+				32A1E7B21F2735520038B87A /* BMPicker */,
+				32A6F0A61EF26A5F005BFBCC /* AppDelegate */,
+				32A6F0BA1EF26A5F005BFBCC /* Demo */,
+				32A6F07C1EF26A3E005BFBCC /* Main.storyboard */,
+				32A6F07F1EF26A3E005BFBCC /* Assets.xcassets */,
+				319C03C71EF2D41300DC3137 /* BMViewController.h */,
+				319C03C81EF2D41300DC3137 /* BMViewController.m */,
+				32A6F0811EF26A3E005BFBCC /* LaunchScreen.storyboard */,
+				32A6F0841EF26A3E005BFBCC /* Info.plist */,
+				32A6F0731EF26A3E005BFBCC /* Supporting Files */,
+			);
+			path = BMPicker;
+			sourceTree = "<group>";
+		};
+		32A6F0731EF26A3E005BFBCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32A6F08C1EF26A3E005BFBCC /* BMPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				32A6F08D1EF26A3E005BFBCC /* BMPickerTests.m */,
+				32A6F08F1EF26A3E005BFBCC /* Info.plist */,
+			);
+			path = BMPickerTests;
+			sourceTree = "<group>";
+		};
+		32A6F0971EF26A3E005BFBCC /* BMPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32A6F0981EF26A3E005BFBCC /* BMPickerUITests.m */,
+				32A6F09A1EF26A3F005BFBCC /* Info.plist */,
+			);
+			path = BMPickerUITests;
+			sourceTree = "<group>";
+		};
+		32A6F0A61EF26A5F005BFBCC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				32A6F0A71EF26A5F005BFBCC /* AppDelegate.h */,
+				32A6F0A81EF26A5F005BFBCC /* AppDelegate.m */,
+				32A6F0A91EF26A5F005BFBCC /* main.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		32A6F0BA1EF26A5F005BFBCC /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				32A6F0BB1EF26A5F005BFBCC /* BMDatePickerViewVC.h */,
+				32A6F0BC1EF26A5F005BFBCC /* BMDatePickerViewVC.m */,
+				32A6F0BD1EF26A5F005BFBCC /* BMExample.storyboard */,
+				32A6F0BE1EF26A5F005BFBCC /* BMExampleVC.h */,
+				32A6F0BF1EF26A5F005BFBCC /* BMExampleVC.m */,
+				32A6F0C21EF26A5F005BFBCC /* BMZDYVC.h */,
+				32A6F0C31EF26A5F005BFBCC /* BMZDYVC.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		32A6F0E51EF26AD6005BFBCC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32A6F0E61EF26AD6005BFBCC /* 1.gif */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3467A39B4689210E9571CCD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5E6E8922EDE58528CF834E1 /* libPods-BMPicker.a */,
+				204D2919723381DD0D3845B8 /* libPods-BMPickerTests.a */,
+				FE8E9CC6C490C8B83F684A8B /* libPods-BMPickerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBEC07F2F87854B861E79FC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F2DBF5E3F5C5200277176D5 /* Pods-BMPicker.debug.xcconfig */,
+				2321A471C0A66D831BF99F5D /* Pods-BMPicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32A6F06F1EF26A3E005BFBCC /* BMPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A6F09D1EF26A3F005BFBCC /* Build configuration list for PBXNativeTarget "BMPicker" */;
+			buildPhases = (
+				941AE10FD6FC1684F1F65F49 /* [CP] Check Pods Manifest.lock */,
+				32A6F06C1EF26A3E005BFBCC /* Sources */,
+				32A6F06D1EF26A3E005BFBCC /* Frameworks */,
+				32A6F06E1EF26A3E005BFBCC /* Resources */,
+				BC571FB6405CDEADCC7C1147 /* [CP] Embed Pods Frameworks */,
+				3485517792714576A5D9FC12 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BMPicker;
+			productName = BMPicker;
+			productReference = 32A6F0701EF26A3E005BFBCC /* BMPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32A6F0881EF26A3E005BFBCC /* BMPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A6F0A01EF26A3F005BFBCC /* Build configuration list for PBXNativeTarget "BMPickerTests" */;
+			buildPhases = (
+				32A6F0851EF26A3E005BFBCC /* Sources */,
+				32A6F0861EF26A3E005BFBCC /* Frameworks */,
+				32A6F0871EF26A3E005BFBCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A6F08B1EF26A3E005BFBCC /* PBXTargetDependency */,
+			);
+			name = BMPickerTests;
+			productName = BMPickerTests;
+			productReference = 32A6F0891EF26A3E005BFBCC /* BMPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32A6F0931EF26A3E005BFBCC /* BMPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A6F0A31EF26A3F005BFBCC /* Build configuration list for PBXNativeTarget "BMPickerUITests" */;
+			buildPhases = (
+				32A6F0901EF26A3E005BFBCC /* Sources */,
+				32A6F0911EF26A3E005BFBCC /* Frameworks */,
+				32A6F0921EF26A3E005BFBCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A6F0961EF26A3E005BFBCC /* PBXTargetDependency */,
+			);
+			name = BMPickerUITests;
+			productName = BMPickerUITests;
+			productReference = 32A6F0941EF26A3E005BFBCC /* BMPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32A6F0681EF26A3E005BFBCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "___liangdahong";
+				TargetAttributes = {
+					32A6F06F1EF26A3E005BFBCC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8RB35RM424;
+						ProvisioningStyle = Automatic;
+					};
+					32A6F0881EF26A3E005BFBCC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8RB35RM424;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32A6F06F1EF26A3E005BFBCC;
+					};
+					32A6F0931EF26A3E005BFBCC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8RB35RM424;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32A6F06F1EF26A3E005BFBCC;
+					};
+				};
+			};
+			buildConfigurationList = 32A6F06B1EF26A3E005BFBCC /* Build configuration list for PBXProject "BMPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32A6F0671EF26A3E005BFBCC;
+			productRefGroup = 32A6F0711EF26A3E005BFBCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32A6F06F1EF26A3E005BFBCC /* BMPicker */,
+				32A6F0881EF26A3E005BFBCC /* BMPickerTests */,
+				32A6F0931EF26A3E005BFBCC /* BMPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32A6F06E1EF26A3E005BFBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A1E7C61F2735520038B87A /* BMCustomDatePickerView.xib in Resources */,
+				32A6F0E71EF26AD6005BFBCC /* BMPicker.podspec in Resources */,
+				32A6F0831EF26A3E005BFBCC /* LaunchScreen.storyboard in Resources */,
+				32A6F0D91EF26A5F005BFBCC /* BMExample.storyboard in Resources */,
+				32A6F0801EF26A3E005BFBCC /* Assets.xcassets in Resources */,
+				32A6F0E81EF26AD6005BFBCC /* LICENSE in Resources */,
+				32A6F0EA1EF26AD6005BFBCC /* 1.gif in Resources */,
+				32A1E7C81F2735520038B87A /* BMSystemDatePickerView.xib in Resources */,
+				32A6F07E1EF26A3E005BFBCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A6F0871EF26A3E005BFBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A6F0921EF26A3E005BFBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3485517792714576A5D9FC12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BMPicker/Pods-BMPicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		941AE10FD6FC1684F1F65F49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC571FB6405CDEADCC7C1147 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BMPicker/Pods-BMPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32A6F06C1EF26A3E005BFBCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A6F0D01EF26A5F005BFBCC /* main.m in Sources */,
+				32A1E7C21F2735520038B87A /* BMPicker.m in Sources */,
+				32A6F0CF1EF26A5F005BFBCC /* AppDelegate.m in Sources */,
+				32A1E7C41F2735520038B87A /* UIView+BMLayoutConstraint.m in Sources */,
+				32A6F0E91EF26AD6005BFBCC /* README.md in Sources */,
+				32A1E7C51F2735520038B87A /* BMCustomDatePickerView.m in Sources */,
+				319C03C91EF2D41300DC3137 /* BMViewController.m in Sources */,
+				32A6F0D81EF26A5F005BFBCC /* BMDatePickerViewVC.m in Sources */,
+				32A6F0DA1EF26A5F005BFBCC /* BMExampleVC.m in Sources */,
+				32A1E7C31F2735520038B87A /* NSDate+BMDatePicker.m in Sources */,
+				32A6F0DC1EF26A5F005BFBCC /* BMZDYVC.m in Sources */,
+				32A1E7C71F2735520038B87A /* BMSystemDatePickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A6F0851EF26A3E005BFBCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A6F08E1EF26A3E005BFBCC /* BMPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A6F0901EF26A3E005BFBCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A6F0991EF26A3F005BFBCC /* BMPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32A6F08B1EF26A3E005BFBCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32A6F06F1EF26A3E005BFBCC /* BMPicker */;
+			targetProxy = 32A6F08A1EF26A3E005BFBCC /* PBXContainerItemProxy */;
+		};
+		32A6F0961EF26A3E005BFBCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32A6F06F1EF26A3E005BFBCC /* BMPicker */;
+			targetProxy = 32A6F0951EF26A3E005BFBCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32A6F07C1EF26A3E005BFBCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A6F07D1EF26A3E005BFBCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32A6F0811EF26A3E005BFBCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A6F0821EF26A3E005BFBCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32A6F09B1EF26A3F005BFBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32A6F09C1EF26A3F005BFBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32A6F09E1EF26A3F005BFBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F2DBF5E3F5C5200277176D5 /* Pods-BMPicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8RB35RM424;
+				INFOPLIST_FILE = BMPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.bluemoon.BMPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32A6F09F1EF26A3F005BFBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2321A471C0A66D831BF99F5D /* Pods-BMPicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8RB35RM424;
+				INFOPLIST_FILE = BMPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.bluemoon.BMPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32A6F0A11EF26A3F005BFBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8RB35RM424;
+				INFOPLIST_FILE = BMPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.bluemoon.BMPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMPicker.app/BMPicker";
+			};
+			name = Debug;
+		};
+		32A6F0A21EF26A3F005BFBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8RB35RM424;
+				INFOPLIST_FILE = BMPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.bluemoon.BMPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMPicker.app/BMPicker";
+			};
+			name = Release;
+		};
+		32A6F0A41EF26A3F005BFBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8RB35RM424;
+				INFOPLIST_FILE = BMPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.bluemoon.BMPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BMPicker;
+			};
+			name = Debug;
+		};
+		32A6F0A51EF26A3F005BFBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8RB35RM424;
+				INFOPLIST_FILE = BMPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.bluemoon.BMPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BMPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32A6F06B1EF26A3E005BFBCC /* Build configuration list for PBXProject "BMPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A6F09B1EF26A3F005BFBCC /* Debug */,
+				32A6F09C1EF26A3F005BFBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A6F09D1EF26A3F005BFBCC /* Build configuration list for PBXNativeTarget "BMPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A6F09E1EF26A3F005BFBCC /* Debug */,
+				32A6F09F1EF26A3F005BFBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A6F0A01EF26A3F005BFBCC /* Build configuration list for PBXNativeTarget "BMPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A6F0A11EF26A3F005BFBCC /* Debug */,
+				32A6F0A21EF26A3F005BFBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A6F0A31EF26A3F005BFBCC /* Build configuration list for PBXNativeTarget "BMPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A6F0A41EF26A3F005BFBCC /* Debug */,
+				32A6F0A51EF26A3F005BFBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32A6F0681EF26A3E005BFBCC /* Project object */;
+}

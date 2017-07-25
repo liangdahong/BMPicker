@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1wV-49-AzW">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ExampleVC-->
+        <scene sceneID="AEv-My-nce">
+            <objects>
+                <viewController id="yu1-cM-p2p" customClass="BMExampleVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SCk-i7-TSf"/>
+                        <viewControllerLayoutGuide type="bottom" id="uvd-do-Ric"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fQ7-xW-OVw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xb-0A-GpQ">
+                                <rect key="frame" x="20" y="220" width="560" height="30"/>
+                                <state key="normal" title="DatePickerView"/>
+                                <connections>
+                                    <segue destination="Cdt-ds-3ST" kind="push" id="XRU-pd-B0r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2n-7X-1QD">
+                                <rect key="frame" x="20" y="270" width="560" height="30"/>
+                                <state key="normal" title="自定义"/>
+                                <connections>
+                                    <segue destination="bWF-aM-K1A" kind="push" id="WT4-Bm-yTH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7xb-0A-GpQ" firstAttribute="leading" secondItem="fQ7-xW-OVw" secondAttribute="leading" constant="20" id="7M2-B8-aJ1"/>
+                            <constraint firstItem="J2n-7X-1QD" firstAttribute="top" secondItem="7xb-0A-GpQ" secondAttribute="bottom" constant="20" id="D8R-75-hqj"/>
+                            <constraint firstItem="J2n-7X-1QD" firstAttribute="top" secondItem="7xb-0A-GpQ" secondAttribute="bottom" constant="20" id="U2i-bq-Ed8"/>
+                            <constraint firstItem="uvd-do-Ric" firstAttribute="top" secondItem="J2n-7X-1QD" secondAttribute="bottom" constant="300" id="Uv6-Oe-Irg"/>
+                            <constraint firstItem="J2n-7X-1QD" firstAttribute="leading" secondItem="fQ7-xW-OVw" secondAttribute="leading" constant="20" id="VDE-Rt-0Pa"/>
+                            <constraint firstAttribute="trailing" secondItem="7xb-0A-GpQ" secondAttribute="trailing" constant="20" id="c5O-Qo-Bew"/>
+                            <constraint firstAttribute="trailing" secondItem="J2n-7X-1QD" secondAttribute="trailing" constant="20" id="vDm-Va-2BG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="KHO-Hc-Pw9">
+                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="xcq-tx-JdN">
+                            <connections>
+                                <action selector="backClick:" destination="yu1-cM-p2p" id="Fs9-5r-BDa"/>
+                            </connections>
+                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="随机全局配置" id="jh9-de-5Af">
+                                <connections>
+                                    <action selector="randomSettingClick:" destination="yu1-cM-p2p" id="1FM-zi-iFx"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="恢复默认" id="CZv-3s-ecE">
+                                <connections>
+                                    <action selector="defaultClick:" destination="yu1-cM-p2p" id="u70-38-CQN"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0yq-qb-UWw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2354" y="-207"/>
+        </scene>
+        <!--DatePickerView-->
+        <scene sceneID="3bm-wb-rYJ">
+            <objects>
+                <viewController id="Cdt-ds-3ST" customClass="BMDatePickerViewVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ijH-W8-whP"/>
+                        <viewControllerLayoutGuide type="bottom" id="8Sw-pO-peE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nbS-e1-qhP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaR-eV-36l">
+                                <rect key="frame" x="10" y="176" width="580" height="30"/>
+                                <state key="normal" title="UIDatePickerModeTime"/>
+                                <connections>
+                                    <action selector="buttonClick1:" destination="Cdt-ds-3ST" eventType="touchUpInside" id="pgU-Kl-Ar2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kf3-wd-q2G">
+                                <rect key="frame" x="10" y="226" width="580" height="30"/>
+                                <state key="normal" title="UIDatePickerModeDate"/>
+                                <connections>
+                                    <action selector="buttonClick2:" destination="Cdt-ds-3ST" eventType="touchUpInside" id="yqK-Wr-kg5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iIx-uM-48K">
+                                <rect key="frame" x="10" y="276" width="580" height="30"/>
+                                <state key="normal" title="UIDatePickerModeDateAndTime"/>
+                                <connections>
+                                    <action selector="buttonClick3:" destination="Cdt-ds-3ST" eventType="touchUpInside" id="uPu-rf-Olp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XT6-PU-vtn">
+                                <rect key="frame" x="10" y="326" width="580" height="30"/>
+                                <state key="normal" title="UIDatePickerModeCountDownTimer"/>
+                                <connections>
+                                    <action selector="buttonClick4:" destination="Cdt-ds-3ST" eventType="touchUpInside" id="vcB-xL-igR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="是否需确定按钮" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5P3-Ze-sLY">
+                                <rect key="frame" x="10" y="130" width="122" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ymI-TF-F0q">
+                                <rect key="frame" x="152" y="125" width="51" height="31"/>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XT6-PU-vtn" firstAttribute="leading" secondItem="nbS-e1-qhP" secondAttribute="leading" constant="10" id="0Qe-Sz-Rlu"/>
+                            <constraint firstItem="ymI-TF-F0q" firstAttribute="leading" secondItem="5P3-Ze-sLY" secondAttribute="trailing" constant="20" id="5Ef-rk-ZwL"/>
+                            <constraint firstItem="iIx-uM-48K" firstAttribute="leading" secondItem="nbS-e1-qhP" secondAttribute="leading" constant="10" id="Beo-BS-ykq"/>
+                            <constraint firstAttribute="trailing" secondItem="NaR-eV-36l" secondAttribute="trailing" constant="10" id="FkZ-Ec-umL"/>
+                            <constraint firstItem="ymI-TF-F0q" firstAttribute="centerY" secondItem="5P3-Ze-sLY" secondAttribute="centerY" id="HgL-pN-QLN"/>
+                            <constraint firstAttribute="trailing" secondItem="iIx-uM-48K" secondAttribute="trailing" constant="10" id="IcL-DE-IHE"/>
+                            <constraint firstAttribute="trailing" secondItem="XT6-PU-vtn" secondAttribute="trailing" constant="10" id="NRS-qi-Rb6"/>
+                            <constraint firstItem="5P3-Ze-sLY" firstAttribute="leading" secondItem="nbS-e1-qhP" secondAttribute="leading" constant="10" id="NfN-c0-Ptu"/>
+                            <constraint firstItem="NaR-eV-36l" firstAttribute="leading" secondItem="nbS-e1-qhP" secondAttribute="leading" constant="10" id="R2Y-Gp-6sy"/>
+                            <constraint firstItem="kf3-wd-q2G" firstAttribute="top" secondItem="NaR-eV-36l" secondAttribute="bottom" constant="20" id="bz6-51-KZl"/>
+                            <constraint firstItem="XT6-PU-vtn" firstAttribute="top" secondItem="iIx-uM-48K" secondAttribute="bottom" constant="20" id="dim-z7-B5j"/>
+                            <constraint firstItem="kf3-wd-q2G" firstAttribute="leading" secondItem="nbS-e1-qhP" secondAttribute="leading" constant="10" id="mLx-Os-CO1"/>
+                            <constraint firstItem="5P3-Ze-sLY" firstAttribute="top" secondItem="ijH-W8-whP" secondAttribute="bottom" constant="66" id="sgM-Sc-hdQ"/>
+                            <constraint firstItem="iIx-uM-48K" firstAttribute="top" secondItem="kf3-wd-q2G" secondAttribute="bottom" constant="20" id="uDv-GC-2kP"/>
+                            <constraint firstItem="NaR-eV-36l" firstAttribute="top" secondItem="ymI-TF-F0q" secondAttribute="bottom" constant="20" id="x8j-lp-kEi"/>
+                            <constraint firstAttribute="trailing" secondItem="kf3-wd-q2G" secondAttribute="trailing" constant="10" id="xmX-0j-C4R"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="DatePickerView" id="JE2-Hd-gAf"/>
+                    <connections>
+                        <outlet property="onSwitch" destination="ymI-TF-F0q" id="fYa-h1-GH7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RDJ-ts-KsE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="156" y="-162"/>
+        </scene>
+        <!--自定义-->
+        <scene sceneID="Xzd-Ab-FZJ">
+            <objects>
+                <viewController id="bWF-aM-K1A" customClass="BMZDYVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fQB-n1-DQg"/>
+                        <viewControllerLayoutGuide type="bottom" id="dAs-bu-P5t"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yxW-fQ-eoo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oAt-wV-o2S">
+                                <rect key="frame" x="20" y="216" width="560" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="年"/>
+                                <connections>
+                                    <action selector="buttonClick1" destination="bWF-aM-K1A" eventType="touchUpInside" id="ycR-71-Nbf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSP-tK-58A">
+                                <rect key="frame" x="20" y="266" width="560" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="年月"/>
+                                <connections>
+                                    <action selector="buttonClick2" destination="bWF-aM-K1A" eventType="touchUpInside" id="qxt-cE-Kk4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vgg-Kg-e5S">
+                                <rect key="frame" x="20" y="316" width="560" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="年月日"/>
+                                <connections>
+                                    <action selector="buttonClick3" destination="bWF-aM-K1A" eventType="touchUpInside" id="8t6-PA-cn9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O27-UZ-cIl">
+                                <rect key="frame" x="20" y="366" width="560" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="年月日 时"/>
+                                <connections>
+                                    <action selector="buttonClick4" destination="bWF-aM-K1A" eventType="touchUpInside" id="7Mq-38-XfX"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="69q-bM-Ihe">
+                                <rect key="frame" x="162" y="125" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchClick:" destination="bWF-aM-K1A" eventType="valueChanged" id="0a1-Ac-Cp3"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="是否需确定按钮" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="maE-Xl-T2q">
+                                <rect key="frame" x="20" y="130" width="122" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oy0-0w-Isy">
+                                <rect key="frame" x="20" y="466" width="560" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="年月日 时分秒"/>
+                                <connections>
+                                    <action selector="buttonClick6" destination="bWF-aM-K1A" eventType="touchUpInside" id="tUy-6b-ro8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ID3-hF-Q44">
+                                <rect key="frame" x="20" y="416" width="560" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="年月日 时分"/>
+                                <connections>
+                                    <action selector="buttonClick5" destination="bWF-aM-K1A" eventType="touchUpInside" id="k5R-3a-RMS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Txm-TO-snU">
+                                <rect key="frame" x="10" y="166" width="580" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vgg-Kg-e5S" firstAttribute="leading" secondItem="yxW-fQ-eoo" secondAttribute="leading" constant="20" id="1Dd-SB-tCJ"/>
+                            <constraint firstItem="FSP-tK-58A" firstAttribute="top" secondItem="oAt-wV-o2S" secondAttribute="bottom" constant="20" id="2lR-34-tDQ"/>
+                            <constraint firstItem="ID3-hF-Q44" firstAttribute="top" secondItem="O27-UZ-cIl" secondAttribute="bottom" constant="20" id="4sB-wp-7cs"/>
+                            <constraint firstItem="maE-Xl-T2q" firstAttribute="top" secondItem="fQB-n1-DQg" secondAttribute="bottom" constant="66" id="7Y3-XO-Tk7"/>
+                            <constraint firstItem="69q-bM-Ihe" firstAttribute="leading" secondItem="maE-Xl-T2q" secondAttribute="trailing" constant="20" id="8oX-9M-xnJ"/>
+                            <constraint firstAttribute="trailing" secondItem="Txm-TO-snU" secondAttribute="trailing" constant="10" id="8yF-K1-UdJ"/>
+                            <constraint firstItem="69q-bM-Ihe" firstAttribute="centerY" secondItem="maE-Xl-T2q" secondAttribute="centerY" id="Bmc-V9-vrq"/>
+                            <constraint firstItem="FSP-tK-58A" firstAttribute="leading" secondItem="yxW-fQ-eoo" secondAttribute="leading" constant="20" id="E1H-5F-L6D"/>
+                            <constraint firstItem="oAt-wV-o2S" firstAttribute="leading" secondItem="yxW-fQ-eoo" secondAttribute="leading" constant="20" id="G8i-Ng-Jqm"/>
+                            <constraint firstItem="Vgg-Kg-e5S" firstAttribute="top" secondItem="FSP-tK-58A" secondAttribute="bottom" constant="20" id="GHx-3u-TWo"/>
+                            <constraint firstItem="oy0-0w-Isy" firstAttribute="top" secondItem="ID3-hF-Q44" secondAttribute="bottom" constant="20" id="I2Q-c4-7Rj"/>
+                            <constraint firstItem="maE-Xl-T2q" firstAttribute="leading" secondItem="yxW-fQ-eoo" secondAttribute="leading" constant="20" id="Mfc-Nd-Qyl"/>
+                            <constraint firstItem="oy0-0w-Isy" firstAttribute="leading" secondItem="yxW-fQ-eoo" secondAttribute="leading" constant="20" id="PSK-9c-8Mj"/>
+                            <constraint firstAttribute="trailing" secondItem="FSP-tK-58A" secondAttribute="trailing" constant="20" id="RNH-cS-FhC"/>
+                            <constraint firstAttribute="trailing" secondItem="oAt-wV-o2S" secondAttribute="trailing" constant="20" id="T1f-7j-0V6"/>
+                            <constraint firstItem="Txm-TO-snU" firstAttribute="leading" secondItem="yxW-fQ-eoo" secondAttribute="leading" constant="10" id="VvD-N8-an8"/>
+                            <constraint firstItem="oAt-wV-o2S" firstAttribute="top" secondItem="69q-bM-Ihe" secondAttribute="bottom" constant="60" id="dk0-fx-TC4"/>
+                            <constraint firstItem="ID3-hF-Q44" firstAttribute="leading" secondItem="yxW-fQ-eoo" secondAttribute="leading" constant="20" id="gbZ-bB-BLW"/>
+                            <constraint firstItem="O27-UZ-cIl" firstAttribute="leading" secondItem="yxW-fQ-eoo" secondAttribute="leading" constant="20" id="ju4-pV-Ve5"/>
+                            <constraint firstAttribute="trailing" secondItem="O27-UZ-cIl" secondAttribute="trailing" constant="20" id="mDG-SD-YIS"/>
+                            <constraint firstItem="Txm-TO-snU" firstAttribute="top" secondItem="69q-bM-Ihe" secondAttribute="bottom" constant="10" id="mQE-6e-BVD"/>
+                            <constraint firstAttribute="trailing" secondItem="Vgg-Kg-e5S" secondAttribute="trailing" constant="20" id="wMA-Sw-8ZF"/>
+                            <constraint firstAttribute="trailing" secondItem="ID3-hF-Q44" secondAttribute="trailing" constant="20" id="weA-CR-p5L"/>
+                            <constraint firstItem="O27-UZ-cIl" firstAttribute="top" secondItem="Vgg-Kg-e5S" secondAttribute="bottom" constant="20" id="xyU-il-jKQ"/>
+                            <constraint firstAttribute="trailing" secondItem="oy0-0w-Isy" secondAttribute="trailing" constant="20" id="yHj-0x-ua1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="自定义" id="phC-ih-P4c"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="Txm-TO-snU" id="sWm-22-F4k"/>
+                        <outlet property="onSwitch" destination="69q-bM-Ihe" id="gUE-gn-NSB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Tg-f4-U5h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-916" y="-378"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Gmh-Nn-TgB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1wV-49-AzW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Zx-xj-wpH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="yu1-cM-p2p" kind="relationship" relationship="rootViewController" id="lfe-DB-v4E"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J3s-E1-hlp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3241" y="-207"/>
+        </scene>
+    </scenes>
+</document>
