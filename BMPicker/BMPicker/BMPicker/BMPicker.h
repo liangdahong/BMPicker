@@ -43,6 +43,9 @@ typedef BOOL(^BMDatePickerConfirmBlock)(NSDate *date);
  */
 typedef void(^BMDatePickerChangeBlock) (NSDate *date);
 
+/**
+ BMPicker
+ */
 @interface BMPicker : NSObject
 
 #pragma mark - 配置 配置目前只对自适应类型有效
@@ -61,9 +64,9 @@ typedef void(^BMDatePickerChangeBlock) (NSDate *date);
 + (void)setDefaultSecondsModifierString:(NSString *)string;  ///< 配置字体 默认：@" 秒"
 
 + (void)setDefaultYearShorthand :(BOOL)shorthand; ///< 年是否不显示前两位 2017->17  默认：NO
-+ (void)setDefaultMonthFillZero :(BOOL)fillZero; ///<  月是否补0  01 默认：NO
-+ (void)setDefaultDayFillZero   :(BOOL)fillZero; ///<  日是否补0  03 默认：NO
-+ (void)setDefaultHourFillZero  :(BOOL)fillZero; ///<  时是否补0  06 默认：NO
++ (void)setDefaultMonthFillZero :(BOOL)fillZero;  ///<  月是否补0  01 默认：NO
++ (void)setDefaultDayFillZero   :(BOOL)fillZero;  ///<  日是否补0  03 默认：NO
++ (void)setDefaultHourFillZero  :(BOOL)fillZero;  ///<  时是否补0  06 默认：NO
 + (void)setDefaultMinutesFillZero:(BOOL)fillZero; ///< 分是否补0  09 默认：NO
 + (void)setDefaultSecondsFillZero:(BOOL)fillZero; ///< 秒是否补0  03 默认：YES
 
@@ -137,7 +140,6 @@ typedef void(^BMDatePickerChangeBlock) (NSDate *date);
                                       changeBlock:(BMDatePickerChangeBlock)changeBlock;
 
 #pragma mark - 秒 分秒 时分秒 日时分秒 月日时分秒
-
 #pragma mark - 非时间选择器
 
 @end

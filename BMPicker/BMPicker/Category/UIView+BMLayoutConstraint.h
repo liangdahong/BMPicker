@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (BMLayoutConstraint)
-    
+
+/**
+ view工具
+ */
 - (void)bm_addConstraintAround;
 
 @end
