@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = 'BMPicker'
-s.version      = '0.0.7'
+s.version      = '1.0.0'
 s.summary      = 'BMPicker 是一款自定义的时间选选择器，支持年，年月，年月日，年月日时，年月日时分，年月日时分秒'
 s.homepage     = 'https://github.com/asiosldh/BMPicker'
 s.license      = 'MIT'
