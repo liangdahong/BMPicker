@@ -40,7 +40,7 @@ pod install
 
 ## Contacts
 
-##### blog : [@idhong](https://liangdahong.com)
+##### blog : [@liangdahong.com](https://liangdahong.com)
 
 ##### 有任何问题可与我联系
 
